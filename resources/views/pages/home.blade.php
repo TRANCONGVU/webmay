@@ -1,6 +1,6 @@
 @extends('master-layout')
 @section('content')
-<section class="home">
+<section class="home-wrap">
 	<div class="container">
 		<div class="home-slide owl-carousel owl-theme">
 			<div class="home-slide-member">
