@@ -443,6 +443,36 @@ img {
 .chi-tiet-sp .nav-link a{
     color: #000 !important;
     text-transform: capitalize;
+
+}
+.tab-info {
+    display: flex;
+    text-transform: capitalize;
+}
+.tab-info span {
+    min-width: 200px;
+}
+.danhgia-box {
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin-top: 20px;
+}
+.bg-danhgia {
+    color: #ed8c4a;
+}
+.my-rate span:nth-child(1) {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.my-rate span:nth-child(2) {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+.my-rate form
+{
+    margin: 0;
 }
 .tab-info {
     display: flex;

@@ -27,5 +27,6 @@ Route::get('/chitiet', function () {
 
 Route::get('/sanpham', function () {
     return view('pages.sanPham');
+
 });
 
