@@ -1,0 +1,367 @@
+/*
+@media (min-width: 992px){
+	.container {
+	    max-width: 1426px;
+	}
+}
+@media (min-width: 768px){
+	.container {
+	    max-width: 1186px;
+	}
+	.main .info_contact img {
+	width: 15px;
+	height: 15px;
+}
+}
+@media (min-width: 576px){
+	.container {
+	    max-width: 1006px;
+	}
+}*/
+@media (max-width: 768px) {
+    .main .contact {
+        margin-bottom: 60px;
+    }
+
+    .main .info_contact .icon {
+        width: 5%;
+        margin-right: 9px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .main .info_contact .icon {
+        width: 9%;
+        margin-right: 7px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .main .info_contact span {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 1050px) {
+    .main .info_contact span {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 1020px) {
+    .main .info_contact span {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 840px) {
+    .main .info_contact span {
+        font-size: 11px !important;
+    }
+}
+
+@media (max-width: 805px) {
+    .main .info_contact span {
+        font-size: 9.5px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .main .info_contact span {
+        font-size: 14px !important;
+    }
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+@font-face {
+    font-family: 'San Francisco Medium' sans-serif !important;
+    src: url('../Font Website/GOTHAM-MEDIUM1_1.OTF');
+}
+
+@font-face {
+    font-family: 'San Francisco Regular' , sans-serif !important;
+    src: url('../Font Website/SANFRANCISCODISPLAY-REGULAR.OTF');
+}
+
+.container-fluid {
+    padding: 0 30px;
+}
+
+.header {
+    height: 80px;
+    background: pink;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eae9e9;
+}
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.main .breadcumb span {
+    font-size: 14px;
+}
+
+.main .breadcumb {
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.main .breadcumb i,
+.main .breadcumb .lienhe {
+    color: #989898;
+}
+
+.main .breadcumb i {
+    margin: 0 10px;
+
+}
+
+.main .title {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+    font-family: 'San Francisco Medium' , sans-serif !important;
+}
+
+.main form span {
+    color: #ed8c4a !important;
+}
+
+.main form {
+    color: #231f20;
+    font-size: 16px;
+    font-family: 'San Francisco Medium';
+}
+
+.main form .input,
+.main form textarea {
+    width: 100%;
+    border: 1px solid #ebeaea;
+}
+
+/*.main .contact {
+	padding-left: 90px;
+}*/
+.main form .btn_submit {
+    background: #17556c;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.main .info_contact img {
+    width: 100%;
+}
+
+.main .info_contact span {
+    text-transform: uppercase;
+    font-family: 'San Francisco Medium';
+}
+
+.main .info_contact .tieude {
+    font-size: 14px;
+    font-family: 'San Francisco Regular';
+}
+
+.main .info_contact .tieude {
+    width: 86%;
+}
+
+.main .info_contact .icon_located {
+    width: 15px !important;
+    height: 15px !important;
+    margin-right: 9px;
+}
+
+.footer {
+    height: 200px;
+    background: pink;
+    margin-top: 30px;
+}
+
+.openning {
+    margin-left: 20px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span {
+    font-family: 'San Francisco Regular' , sans-serif !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    margin-bottom: 25px;
+}
+
+.tintuc {
+    margin-top: 76px;
+    margin-bottom: 33px;
+    font-size: 25px;
+    font-family: 'GT-MEDIUM';
+}
+
+.menu-left {}
+
+.right {
+    margin-top: 43px;
+    margin-left: 5%;
+}
+
+.right .text-top {
+    font-size: 25px;
+    font-family: 'GT-MEDIUM';
+}
+
+.right .text-content {
+    font-size: 14px;
+    font-family: 'SFCDISPLAY-REGULAR';
+    color: #666666;
+    margin-top: 25px;
+}
+
+.right .text-bot {
+    font-size: 16px;
+    font-family: 'SFCDISPLAY-REGULAR';
+    margin-top: 21px;
+}
+
+.chitiet a {
+    margin: 10px 0;
+    display: block;
+    width: 171px;
+    height: 48px;
+    background-color: #17556c;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'GT-MEDIUM';
+}
+
+.chitiet a:hover {
+    background-color: inherit;
+    color: black;
+    border: 1px solid #CCCCCC;
+    transition: all 0.5s;
+}
+
+.page-item.active .page-link {
+    background-color: #17556c;
+
+}
+
+.page-item:first-child .page-link {
+    border-radius: 0;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 0;
+}
+
+.page-item.active .page-link {
+    border: none;
+}
+
+.page-link {
+    background-color:
+}
+
+.page-link:hover {
+    border: 1px solid #231f20;
+}
+
+.pagination a {
+    font-size: 14px;
+    font-family: 'SFCDISPLAY-REGULAR';
+}
+
+.page-item {
+    margin-left: 8px;
+}
+
+.pagination a {
+    color: black;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1606px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1426px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1186px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 1006px;
+        margin: 0 10px;
+    }
+}
+.container {
+    margin: 0 10px;
+}
