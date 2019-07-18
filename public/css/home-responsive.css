@@ -1,0 +1,11 @@
+@media(max-width: 1199px){
+	.h-link{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 991px){
+	.home-product-cart a{
+		display: inline-block;
+		padding: 10px 0;
+	}
+}
