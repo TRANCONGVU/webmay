@@ -21,18 +21,11 @@ Route::get('/lienhe', function () {
 Route::get('/tintuc', function () {
     return view('pages.tintuc');
 });
-
-
-Route::prefix('san-pham')->group(function () {
-
-    Route::get('/', function () {
-        return view('pages.sanPham');
-    })->name('san-pham');
-
-
-
+Route::get('/chitiet', function () {
+    return view('pages.chitiet');
 });
-Route::get('trang-chu', [
-	'as' =>'trang-chu',
-	'uses' => 'Controller_1@get_trangchu'
-]);
+
+Route::get('/sanpham', function () {
+    return view('pages.sanPham');
+});
+
