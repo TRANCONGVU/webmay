@@ -17,8 +17,20 @@ Route::get('/', function () {
 Route::get('/lienhe', function () {
     return view('pages.lienhe');
 });
+
 Route::get('/tintuc', function () {
     return view('pages.tintuc');
+});
+
+
+Route::prefix('san-pham')->group(function () {
+
+    Route::get('/', function () {
+        return view('pages.sanPham');
+    })->name('san-pham');
+
+
+
 });
 Route::get('trang-chu', [
 	'as' =>'trang-chu',
