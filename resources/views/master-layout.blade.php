@@ -28,6 +28,7 @@
     <script type="text/javascript" src="lib/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.0.js"></script>
     <script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript" src="{{  asset('js/home.js') }}"></script>
 
 

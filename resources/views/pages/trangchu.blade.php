@@ -2,7 +2,7 @@
 
 	@extends('master-layout')
     @section('content')
-    <section class="home container">
+    <section class="home-wrap">
         <div class="container">
             <div class="home-slide owl-carousel owl-theme">
                 <div class="home-slide-member">
@@ -199,8 +199,8 @@
                             <img src="{{ asset('images/link-1.jpg') }}" class="img-fluid" style="width: 100%;">
                             <div class="h-link-content h-link-content-1">
                                 <div>
-                                    <span style="font-size: 45px;">Súng bắn đinh <br></span>
-                                    <span style="font-size: 22px;">Chủng loại và mẫu mã vô cùng <br> đa dạng và phong phú</span>
+                                    <span>Súng bắn đinh <br></span>
+                                    <span>Chủng loại và mẫu mã vô cùng <br> đa dạng và phong phú</span>
                                 </div>
                                 <div class="home-slide-content-link">
                                     <a href="">Mua ngay</a>
@@ -213,8 +213,8 @@
                             <img src="{{ asset('images/link-2.jpg') }}" class="img-fluid" style="width: 100%;">
                             <div class="h-link-content h-link-content-2">
                                 <div>
-                                    <span style="font-size: 45px;">Đinh công nghiệp <br></span>
-                                    <span style="font-size: 22px;">Độ bền cao, giá thành cạnh tranh</span>
+                                    <span>Đinh công nghiệp <br></span>
+                                    <span>Độ bền cao, giá thành cạnh tranh</span>
                                 </div>
                                 <div class="home-slide-content-link">
                                     <a href="">Mua ngay</a>
@@ -356,8 +356,8 @@
                             <img src="{{ asset('images/link-3.jpg') }}" class="img-fluid" style="width: 100%;">
                             <div class="h-link-content h-link-content-3">
                                 <div>
-                                    <span style="font-size: 45px;">Máy hút bụi <br> công nghệ cao <br></span>
-                                    <span style="font-size: 22px;">Tính ổn định cao, chịu va đập mạnh</span>
+                                    <span>Máy hút bụi <br> công nghệ cao <br></span>
+                                    <span>Tính ổn định cao, chịu va đập mạnh</span>
                                 </div>
                                 <div class="home-slide-content-link">
                                     <a href="">Mua ngay</a>
@@ -370,8 +370,8 @@
                             <img src="{{ asset('images/link-4.jpg') }}" class="img-fluid" style="width: 100%;">
                             <div class="h-link-content h-link-content-4">
                                 <div>
-                                    <span style="font-size: 45px;">Hộp đựng <br> dụng cụ <br></span>
-                                    <span style="font-size: 22px;">Kích thước đa dạng <br> Tối ưu tiện ích</span>
+                                    <span>Hộp đựng <br> dụng cụ <br></span>
+                                    <span>Kích thước đa dạng <br> Tối ưu tiện ích</span>
                                 </div>
                                 <div class="home-slide-content-link">
                                     <a href="">Mua ngay</a>
