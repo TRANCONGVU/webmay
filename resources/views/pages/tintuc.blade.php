@@ -6,7 +6,7 @@
 
         <div class="col-md-6">
             <div class="menu-left">
-                <img src="Images/sungmay1.png">
+                <img src="images/sungmay1.png">
             </div>
         </div>
 
@@ -30,7 +30,7 @@
 
         <div class="col-md-6">
             <div class="menu-left">
-                <img src="Images/sungmay1.png">
+                <img src="images/sungmay1.png">
             </div>
         </div>
 
@@ -54,7 +54,7 @@
 
         <div class="col-md-6">
             <div class="menu-left">
-                <img src="Images/sungmay1.png">
+                <img src="images/sungmay1.png">
             </div>
         </div>
 

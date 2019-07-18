@@ -443,6 +443,7 @@ img {
 .chi-tiet-sp .nav-link a{
     color: #000 !important;
     text-transform: capitalize;
+
 }
 .tab-info {
     display: flex;
@@ -473,3 +474,208 @@ img {
 {
     margin: 0;
 }
+.tab-info {
+    display: flex;
+    text-transform: capitalize;
+}
+.tab-info span {
+    min-width: 200px;
+}
+.danhgia-box {
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin-top: 20px;
+}
+.bg-danhgia {
+    color: #ed8c4a;
+}
+.my-rate span:nth-child(1) {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.my-rate span:nth-child(2) {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+.my-rate form
+{
+    margin: 0;
+}
+@font-face {
+    font-family: "GotHam-Bold";
+    font-weight: 500;
+    src: url("../fonts/GOTHAM-BOLD1_1.OTF"); }
+  @font-face {
+    font-family: "GotHam-medium";
+    font-weight: 500;
+    src: url("../fonts/GOTHAM-MEDIUM1_1.OTF"); }
+  @font-face {
+    font-family: "sanfrancisco";
+    font-weight: 500;
+    src: url("../fonts/SANFRANCISCODISPLAY-REGULAR.OTF"); }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; }
+
+  .bread-crumb .breadcrumb {
+    background: transparent; }
+    .bread-crumb .breadcrumb .breadcrumb-item {
+      font-size: 14px;
+      font-family: "sanfrancisco";
+      color: #231F20;
+      text-transform: capitalize; }
+
+  .content .content-left .left-title {
+    font-family: "GotHam-medium";
+    font-size: 25px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 18px; }
+  .content .content-left .accordion-box .box-1 {
+    margin-bottom: 25px; }
+    .content .content-left .accordion-box .box-1 .box-1-title {
+      position: relative;
+      cursor: pointer; }
+      .content .content-left .accordion-box .box-1 .box-1-title .main-title {
+        font-size: 16px;
+        font-family: "GotHam-medium";
+        text-transform: uppercase; }
+      .content .content-left .accordion-box .box-1 .box-1-title i {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        cursor: pointer;
+        color: #666; }
+    .content .content-left .accordion-box .box-1 .content-box .color-box {
+      list-style: none;
+      display: flex;
+      flex-flow: row; }
+      .content .content-left .accordion-box .box-1 .content-box .color-box li {
+        margin-right: 5px; }
+        .content .content-left .accordion-box .box-1 .content-box .color-box li a {
+          font-family: "sanfrancisco";
+          font-size: 14px;
+          line-height: 35px;
+          color: #231F20;
+          text-transform: capitalize;
+          text-decoration: none; }
+          .content .content-left .accordion-box .box-1 .content-box .color-box li a span {
+            color: #666; }
+    .content .content-left .accordion-box .box-1 .content-box .box-colum {
+      display: flex;
+      flex-flow: column; }
+  .content .content-left .folder-like .like-title {
+    font-size: 16px;
+    color: #000000;
+    font-family: "GotHam-medium";
+    text-transform: uppercase; }
+  .content .content-left .folder-like .like-text {
+    font-size: 14px;
+    line-height: 35px;
+    color: #666666;
+    font-family: "sanfrancisco"; }
+  .content .content-right .search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .content .content-right .search-box .search-box-left .dropdown span {
+      margin-left: 15px;
+      font-size: 14px;
+      line-height: 24px;
+      color: #231F20;
+      font-family: "sanfrancisco";
+      text-transform: capitalize; }
+    .content .content-right .search-box .search-box-left .dropdown a {
+      padding-left: 20px;
+      font-family: "sanfrancisco";
+      text-transform: capitalize;
+      font-size: 14px;
+      line-height: 24px;
+      color: #666666; }
+    .content .content-right .search-box .search-box-left .dropdown .dropdown-menu .dropdown-item {
+      font-family: "sanfrancisco";
+      text-transform: capitalize;
+      font-size: 14px;
+      line-height: 24px;
+      color: #666666; }
+    .content .content-right .search-box .search-box-left .dropdown-1 {
+      margin-left: 60px; }
+    .content .content-right .search-box .search-box-right .main-box-right p {
+      font-family: "sanfrancisco";
+      font-size: 14px;
+      line-height: 24px;
+      color: #666666; }
+  .content .content-right .product-list {
+    display: none; }
+    .content .content-right .product-list .collum-img-1 .sale-product {
+      background-color: #F2F2F2;
+      position: relative; }
+      .content .content-right .product-list .collum-img-1 .sale-product img {
+        padding: 28px 44px; }
+      .content .content-right .product-list .collum-img-1 .sale-product .sale-insert-cart {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #17556C;
+        width: 100%; }
+        .content .content-right .product-list .collum-img-1 .sale-product .sale-insert-cart a {
+          display: grid;
+          grid-template-columns: 3fr 1fr;
+          text-align: center;
+          font-family: "GotHam-medium";
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #fff;
+          text-decoration: none; }
+          .content .content-right .product-list .collum-img-1 .sale-product .sale-insert-cart a div {
+            padding: 10px 0; }
+          .content .content-right .product-list .collum-img-1 .sale-product .sale-insert-cart a:hover {
+            color: #ED4956; }
+    .content .content-right .product-list .collum-img-1 .sale-product-content {
+      padding-top: 20px;
+      font-family: "sanfrancisco";
+      font-size: 16px;
+      color: #000; }
+      .content .content-right .product-list .collum-img-1 .sale-product-content a {
+        color: #000;
+        text-decoration: none; }
+      .content .content-right .product-list .collum-img-1 .sale-product-content .sale-color-star {
+        color: #ED8C4A !important; }
+    .content .content-right .product-list .product-box .box-1 .text-box-product .add-product-box .add-1 {
+      width: 200px;
+      height: 42px;
+      background: #17556C;
+      text-align: center; }
+      .content .content-right .product-list .product-box .box-1 .text-box-product .add-product-box .add-1 a {
+        line-height: 42px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: "GotHam-medium"; }
+    .content .content-right .product-list .product-box .box-1 .text-box-product .add-product-box .icon-heart {
+      padding-top: 10px; }
+      .content .content-right .product-list .product-box .box-1 .text-box-product .add-product-box .icon-heart i {
+        font-size: 20px; }
+        .content .content-right .product-list .product-box .box-1 .text-box-product .add-product-box .icon-heart i:hover {
+          color: #ED4956; }
+  .content .content-right .pagina-tion .pagination .page-item {
+    margin-right: 5px !important; }
+    .content .content-right .pagina-tion .pagination .page-item .page-link {
+      color: #000 !important; }
+      .content .content-right .pagina-tion .pagination .page-item .page-link:hover {
+        background: #17556C !important;
+        color: #fff !important; }
+
+  @media (max-width: 992px) {
+    .col-lg-3 {
+      border-bottom: 1px solid #eee;
+      margin-bottom: 20px; } }

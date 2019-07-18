@@ -22,10 +22,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="{{  asset('css/home.css') }}">
     <link rel="stylesheet" type="text/css" href="{{  asset('css/home-responsive.css') }}">
+
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.0.js"></script>
     <script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="{{  asset('js/home.js') }}"></script>
+
+
 
 </head>
 
@@ -40,7 +45,7 @@
     <!-- script -->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
-	
+
 	<!-- custom js -->
 	<script>
 	$(document).ready(function () {
@@ -59,8 +64,9 @@
             $(".product-box").show();
             $(".product-list").hide();
         })
-	});
-	
+    });
+
+
 	</script>
 
 </body>

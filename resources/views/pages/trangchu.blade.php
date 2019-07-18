@@ -7,7 +7,7 @@
             <div class="home-slide owl-carousel owl-theme">
                 <div class="home-slide-member">
                     <div class="home-slide-img">
-                        <img src="{{ asset('images/home-slide.jpg') }}" class="img-fluid">
+                        <img src="images/home-slide.jpg" class="img-fluid">
                     </div>
                     <div class="home-slide-content">
                         <div class="home-slide-content-text">
@@ -728,5 +728,5 @@
     </section>
 		<script type="text/javascript" src="lib/jquery.min.js"></script>
 		<script type="text/javascript" src="lib/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
-
+        <script type="text/javascript" src="js/home.js"></script>
 	@endsection
