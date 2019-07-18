@@ -22,14 +22,8 @@ Route::get('/tintuc', function () {
     return view('pages.tintuc');
 });
 
-
-Route::prefix('san-pham')->group(function () {
-
-    Route::get('/', function () {
-        return view('pages.sanPham');
-    })->name('san-pham');
-
-
+Route::get('/chitiet', function () {
+    return view('pages.chitiet');
 
 });
 Route::get('trang-chu', [
