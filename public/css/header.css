@@ -22,11 +22,15 @@ nav.nav-horizontal{
 	-ms-transition: 0.4s all;
 	-o-transition: 0.4s all;
     transition: 0.4s all;
-    padding-top: 65px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 	/*position: fixed;
 	z-index: 999;
 	top: 40px;*/
 
+}
+.nav.nav-horizontal-active-2  .logo {
+    top : 100px;
 }
 .nav-horizontal-container{
 	position: relative;
@@ -616,35 +620,42 @@ section.back-to-top{
     top: 0;
     right: -20px;
     border-radius: 100%;
-    /* background: grey;
-     */
-     border : 1px solid #dedede;
+    background: rgb(23,85,108);
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+     /* border : 1px solid #dedede; */
 }
 .item-cart span {
     position: absolute;
-    top: -18px;
-    right: 4px;
+    top: -16px;
+    right: 6px;
 }
 .logo img{
-    top: -100px;
+    top: -50px;
     position: absolute;
-    width: 190px;
-    height: 200px;
+    width: 140px;
+    /* height: 200px; */
     object-fit: contain;
 }
 .head input {
-    width: 250px;
+    width: 300px;
     padding: 1px;
 }
 .head input::placeholder {
     font-size: 12px;
-    /* margin-left: 20px; */
+
+    padding-left: 10px;
+}
+.input-bot input::placeholder{
+    font-size: 10px !important;
+    padding-left: 10px;
 }
 .search {
     position: relative;
 }
 .search img {
-    width: 30px;
+    width: 20px;
     height: 30px;
     object-fit: contain;
     position: absolute;
@@ -660,6 +671,7 @@ section.back-to-top{
     margin-right: 20px;
 }
 .head .form-control {
+    border : none;
     padding: 0;
     height: 30px !important;
     border-radius: 0;
@@ -667,6 +679,8 @@ section.back-to-top{
 .head div , form {
     margin-left: 20px;
     text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
 }
 .dn img {
     width: 35px;
@@ -686,9 +700,12 @@ section.back-to-top{
 }
 footer {
     background: rgb(37, 37, 37);
-    padding: 20px 0 20px 0 !important;
+    padding: 20px 0 0px 0 !important;
     border-top: 1px dotted black;
-    margin: 40px 0 0 0 !important;
+    /* margin: 40px 0 0 0 !important; */
+}
+.map {
+    padding: 0;
 }
 .bottom a {
     font-size: 12px;
@@ -716,7 +733,9 @@ footer {
     border: none;
     color: white;
     cursor: pointer;
-    padding: 5px;
+    padding: 5px !important;
+    font-weight: 500;
+    font-size: 13px;
 }
 .lienket a{
     margin-right: 20px;
@@ -763,4 +782,22 @@ footer {
 }
 .pagination {
     margin: 20px 0 0 10px;
+}
+.title-head {
+    height: 30px;
+    background: rgb(23 , 85 , 108);
+    color : #fff;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.copyright {
+    color: rgb(102, 102, 102);
+    background: rgb(22, 22,22);
+    text-align: center;
+    font-size: 13px;
+    height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

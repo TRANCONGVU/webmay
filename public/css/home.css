@@ -88,11 +88,14 @@
 	font-family: 'got-book';
 	font-size: 16px;
 	display: block;
-	margin-bottom: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 5px;
+
 }
 .home-slide-content-text > span:nth-child(2){
 	font-family: 'got-bold';
-	font-size: 52px;
+    font-size: 45px;
+    font-weight: bold;
 	text-transform: uppercase;
 }
 .home-slide-content-text > span:last-child{
@@ -108,12 +111,15 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	padding: 13px 33px;
-	border: 1px solid #fff;
-	text-decoration: none;
+    text-decoration: none;
+    background-color: #17556C;
+    border: 1px solid #17556C;
 }
 .home-slide-content-link a:hover{
-	background-color: #17556C;
-	border: 1px solid #17556C;
+    border: none;
+    background-color: #fff;
+    color: black;
+
 }
 
 
@@ -152,7 +158,7 @@
 	text-transform: uppercase;
 }
 .h-best-sale-insert-cart > div{
-	padding: 10px 0;	
+	padding: 10px 0;
 }
 .h-best-sale-insert-cart > div > a{
 	color: #fff;

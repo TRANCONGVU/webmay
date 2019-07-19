@@ -1,11 +1,17 @@
+<div class="container-fluid p-0 m-0">
+    <div class="title-head">
+        Đăng ký thành viên để nhận giá thương mại và nhiều ưu đãi khác
+    </div>
+</div>
 <div class="container-fluid">
+
     <div class="container an d-flex justify-content-end">
         <div class="head d-flex justify-content-start mt-3">
             <div class="search">
-                <input type="text" placeholder="tìm kiếm tại đây ...">
+                <input type="text" placeholder="Tìm kiếm tại đây...">
                 <a><img src="images/search.png" alt=""></a>
             </div>
-            <form>
+            <form style="border-right : 1px solid black; padding-right : 10px;">
                 <div class="form-group">
                     <select class="form-control" id="">
                         <option>VIE</option>
@@ -20,7 +26,7 @@
             <div class="dn">
                 <img src="images/user.png" alt="">
                 <a href="">Đăng nhập</a>
-                <span>hoặc</span>
+                <span class="text-lowercase">hoặc</span>
                 <a href="">Đăng ký</a>
             </div>
         </div>
@@ -28,9 +34,11 @@
 </div>
 <nav class="nav-horizontal container-fluid">
     <div class="nav-horizontal-container container">
-        <div class="logo">
-            <img src="images/logo.png" alt="">
-        </div>
+        <a href="{{ url('/') }}">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+        </a>
         <div class="nav-horizontal-content">
             <ul class="nav-ul-lv-1">
                 <li><a href="{{ url('/') }}">Trang chủ</a></li>
@@ -46,11 +54,11 @@
                                 <a href="">dụng cụ cắt gọt</a>
                             </div>
                             <div class="col-md-6">
-                               <a href="">dụng cụ đo lường</a>
-                               <a href="">thiết bị hàn</a>
-                               <a href="">vệ sinh công nghiệp</a>
-                               <a href="">phụ kiện khí nén</a>
-                               <a href="">đinh công nghiệp</a>
+                                <a href="">dụng cụ đo lường</a>
+                                <a href="">thiết bị hàn</a>
+                                <a href="">vệ sinh công nghiệp</a>
+                                <a href="">phụ kiện khí nén</a>
+                                <a href="">đinh công nghiệp</a>
                             </div>
                         </div>
                     </div>
