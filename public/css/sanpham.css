@@ -1,19 +1,19 @@
 @font-face {
     font-family: "GotHam-Bold";
     font-weight: 500;
-    src: url("../fonts/GOTHAM-BOLD1_1.OTF");
+    src: url("../font/GOTHAM-BOLD1_1.OTF");
 }
 
 @font-face {
     font-family: "GotHam-medium";
     font-weight: 500;
-    src: url("../fonts/GOTHAM-MEDIUM1_1.OTF");
+    src: url("../font/GOTHAM-MEDIUM1_1.OTF");
 }
 
 @font-face {
     font-family: "sanfrancisco";
     font-weight: 500;
-    src: url("../fonts/SANFRANCISCODISPLAY-REGULAR.OTF");
+    src: url("../font/SANFRANCISCODISPLAY-REGULAR.OTF");
 }
 
 * {
