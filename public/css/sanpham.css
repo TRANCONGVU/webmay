@@ -162,6 +162,13 @@ img {
 .content .content-right .product-list .collum-img-1 .sale-product {
     background-color: #F2F2F2;
     position: relative;
+
+}
+
+.content .content-right .product-list .collum-img-1 .sale-product:hover .sale-insert-cart {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.4s;
 }
 
 .content .content-right .product-list .collum-img-1 .sale-product img {
@@ -174,6 +181,8 @@ img {
     bottom: 0;
     background-color: #17556C;
     width: 100%;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .content .content-right .product-list .collum-img-1 .sale-product .sale-insert-cart a {
@@ -211,11 +220,11 @@ img {
     color: #ED8C4A !important;
 }
 
-.add-1 {
-    width: 200px;
-    height: 42px;
-    background: #17556C;
-    text-align: center;
+.add-1 a:hover {
+    background-color: inherit;
+    border: 1px solid;
+    color: #000;
+    transition: all 0.5s
 }
 
 .add-1 a {
@@ -225,8 +234,9 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     font-family: "GotHam-medium";
-}
-
+    background: #17556C;
+    padding: 15px;
+}   
 .icon-heart {
     padding-top: 10px;
 }
