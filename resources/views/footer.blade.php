@@ -33,7 +33,7 @@
 
 	            </div>
 	            <div class="col-md-3 bottom">
-	                <span>Đăng ký email để nhận tin</span>
+	                <span>Đăng ký để nhận tin</span>
 	                <a href="">nhận tất cả thông báo của Sự Kiện,Khuyến Mãi và các ưu đãi khác.Đăng ký ngay hôm nay.</a>
 	                <div class="input-bot d-flex">
 	                    <input type="email" placeholder="Điền email của bạn tại đây">

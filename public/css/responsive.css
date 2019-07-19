@@ -33,6 +33,18 @@
         left: -200px;
     }
 }
+@media only screen and (max-width: 1030px) {
+    .input-bot input {
+        width: 115px;
+    }
+    .bottom span {
+        font-size: 13px;
+    }
+    .bottom button{
+        font-size: 13px;
+    }
+
+}
 @media only screen and (max-width: 930px) {
 
 	.nav-horizontal-search{
@@ -85,6 +97,9 @@
     }
     .container{
         padding: 10px !important;
+    }
+    .input-bot input {
+        width: 200px;
     }
 }
 @media only screen and (max-width: 687px) {
