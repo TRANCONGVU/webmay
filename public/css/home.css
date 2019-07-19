@@ -21,51 +21,30 @@
 
 @font-face {
 	font-family: 'sf-regular';
-	src: url('../fonts/SANFRANCISCODISPLAY-REGULAR.OTF');
+	src: url('../font/SANFRANCISCODISPLAY-REGULAR.OTF');
 }
 @font-face {
 	font-family: 'sf-bold';
-	src: url('../fonts/SANFRANCISCODISPLAY-BOLD.OTF');
+	src: url('../font/SANFRANCISCODISPLAY-BOLD.OTF');
 }
 @font-face {
 	font-family: 'got-book';
-	src: url('../fonts/GOTHAM-BOOK1_1.OTF');
+	src: url('../font/GOTHAM-BOOK1_1.OTF');
 }
 @font-face {
 	font-family: 'got-medium';
-	src: url('../fonts/GOTHAM-MEDIUM1_1.OTF');
+	src: url('../font/GOTHAM-MEDIUM1_1.OTF');
 }
 @font-face {
 	font-family: 'got-bold';
-	src: url('../fonts/GOTHAM-BOLD1_1.OTF');
+	src: url('../font/GOTHAM-BOLD1_1.OTF');
 }
 *{
 	margin: 0;
 	padding: 0;
 }
-@media (min-width: 1200px){
-	/*1140 -466*/
-	.home > .container {
-	    max-width: 1606px !important;
-	}
-}
-@media (min-width: 992px){
-	/*960*/
-	.home > .container {
-	    max-width: 1426px;
-	}
-}
-@media (min-width: 768px){
-	/*720*/
-	.home > .container {
-	    max-width: 1186px;
-	}
-}
-@media (min-width: 576px){
-	/*576*/
-	.home > .container {
-	    max-width: 1006px;
-	}
+.home-wrap{
+	/*width: 100% !important;*/
 }
 .h-g{
 	margin-top: 77px;
@@ -194,6 +173,12 @@
 .h-link{
 	position: relative;
 }
+.h-link-content > div > span:first-child{
+	font-size: 45px;
+}
+.h-link-content > div > span:last-child{
+	font-size: 22px;
+}
 .h-link-content-1{
 	position: absolute;
 	transform: translateY(-50%);
@@ -268,5 +253,4 @@
 .home-product-price{
 	font-size: 16px;
 	padding-top: 15px;
-	text-indent: 10px;
 }

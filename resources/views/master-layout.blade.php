@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/x-icon" href="images/logo1.png" />
     <link rel="stylesheet" type="text/css" href="lib/bootstrap_4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/reset-browser.css">
     <link rel="stylesheet" type="text/css" href="lib/fontawesome.5.7.2/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="lib/OwlCarousel2-2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="lib/OwlCarousel2-2.3.4/assets/owl.theme.default.min.css">
@@ -20,18 +19,16 @@
     <!-- End WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/sanpham.css') }}">
     <link rel="stylesheet" type="text/css" href="{{  asset('css/home.css') }}">
     <link rel="stylesheet" type="text/css" href="{{  asset('css/home-responsive.css') }}">
-
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="lib/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery-3.4.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript" src="{{  asset('js/home.js') }}"></script>
-
-
-
 
 
 
@@ -45,9 +42,7 @@
 
 
 
-    <!-- script -->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
+  
 
 	<!-- custom js -->
 	<script>

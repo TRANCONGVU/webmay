@@ -5,7 +5,7 @@
     <div class="row">
 
         <div class="col-md-6">
-            <div class="menu-left">
+            <div class="menu-left d-flex" style="height: 100%;">
                 <img src="images/sungmay1.png">
             </div>
         </div>
@@ -24,12 +24,12 @@
         </div>
     </div>
 </div>
-
 <div class="container">
+    
     <div class="row">
 
         <div class="col-md-6">
-            <div class="menu-left">
+            <div class="menu-left d-flex" style="height: 100%;">
                 <img src="images/sungmay1.png">
             </div>
         </div>
@@ -48,12 +48,12 @@
         </div>
     </div>
 </div>
-
 <div class="container">
+
     <div class="row">
 
         <div class="col-md-6">
-            <div class="menu-left">
+            <div class="menu-left d-flex" style="height: 100%;">
                 <img src="images/sungmay1.png">
             </div>
         </div>
@@ -72,6 +72,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="container">
     <ul class="pagination">
