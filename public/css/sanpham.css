@@ -221,22 +221,24 @@ img {
 }
 
 .add-1 a:hover {
-    background-color: inherit;
-    border: 1px solid;
-    color: #000;
+    /* background-color: inherit; */
+    border: none;
+    color: #fff;
+    background-color:  rgb(23 , 85, 108);
     transition: all 0.5s
 }
 
 .add-1 a {
     line-height: 42px;
-    color: #fff;
+    color: #000;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
     font-family: "GotHam-medium";
-    background: #17556C;
+    background: #fff;
+    border : 1px solid #000;
     padding: 15px;
-}   
+}
 .icon-heart {
     padding-top: 10px;
 }

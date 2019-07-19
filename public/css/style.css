@@ -298,20 +298,21 @@ img {
     display: block;
     width: 171px;
     height: 48px;
-    background-color: #17556c;
+    background-color: #fff;
     text-align: center;
     padding-top: 10px;
     text-decoration: none;
-    color: white;
+    color: #000;
     font-size: 16px;
+    border: 1px solid black !important;
     font-weight: bold;
     /* font-family: 'GT-MEDIUM'; */
 }
 
 .chitiet a:hover {
-    background-color: inherit;
-    color: black;
-    border: 1px solid #CCCCCC;
+    background-color:  rgb(23 , 85, 108);
+    color:#fff;
+    border: none;
     transition: all 0.5s;
 }
 
@@ -444,7 +445,7 @@ img {
     color : rgb(23,85,108);
 }
 .head-info a {
-    color : rgb(23,85,108);
+    color: #666;
 }
 .muangay {
     padding: 7px 20px;

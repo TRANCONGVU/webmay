@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- san pham -->
-<main>
+<main class="mb-5">
     <!-- bread-crumb -->
     <section class="bread-crumb">
         <div class="container">
