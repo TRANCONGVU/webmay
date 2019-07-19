@@ -37,7 +37,7 @@
 	                <a href="">nhận tất cả thông báo của Sự Kiện,Khuyến Mãi và các ưu đãi khác.Đăng ký ngay hôm nay.</a>
 	                <div class="input-bot d-flex">
 	                    <input type="email" placeholder="Điền email của bạn tại đây">
-	                    <button disabled="">CONRFIM</button>
+	                    <button disabled="" style="padding: 5px;">CONRFIM</button>
 	                </div>
 	                <div class="lienket d-flex">
 	                    <a href=""><i class="fab fa-facebook-f"></i></a>

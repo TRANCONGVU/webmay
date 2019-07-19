@@ -239,7 +239,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px;">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -274,7 +274,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -309,7 +309,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -344,7 +344,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -379,7 +379,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -414,7 +414,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -449,7 +449,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -484,7 +484,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
@@ -519,7 +519,7 @@
                                         <div style="padding-top: 17px;">
                                             <a href="">Tên sản phẩm</a>
                                         </div>
-                                        <div style="padding-top: 17px; text-indent: 10px;">
+                                        <div style="padding-top: 17px; ">
                                             {{ number_format(500000) }} VND
                                         </div>
                                     </div>
