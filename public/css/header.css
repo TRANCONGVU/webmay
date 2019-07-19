@@ -716,6 +716,7 @@ footer {
     border: none;
     color: white;
     cursor: pointer;
+    padding: 5px;
 }
 .lienket a{
     margin-right: 20px;
