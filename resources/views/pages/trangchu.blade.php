@@ -75,7 +75,9 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -97,14 +99,16 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-2.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-2.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -126,14 +130,16 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-3.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-3.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -155,14 +161,16 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-4.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-4.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -184,7 +192,7 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
@@ -232,7 +240,9 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -254,14 +264,16 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-2.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-2.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -283,14 +295,16 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-3.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-3.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -312,14 +326,16 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
-                                <img src="{{ asset('images/best-sale-4.jpg') }}" class="img-fluid" style="width: 100%;">
+                                <a href="{{ url('chitiet') }}">
+                                    <img src="{{ asset('images/best-sale-4.jpg') }}" class="img-fluid" style="width: 100%;">
+                                </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
                                         <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
@@ -341,7 +357,7 @@
                                 <div style="padding-top: 17px;">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px; text-indent: 10px;">
+                                <div style="padding-top: 17px;">
                                     {{ number_format(500000) }} VND
                                 </div>
                             </div>
@@ -390,9 +406,11 @@
                             </div>
                             <div class="home-product">
                                 <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-6">
+                                    <div class="col-12 col-sm-12 col-xl-5">
                                         <div class="home-product-img h-image-scale">
-                                            <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                            </a>
                                             <div class="home-product-cart">
                                                 <div>
                                                     <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -403,7 +421,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-sm-12 col-md-6">
+                                    <div class="col-12 col-sm-12 col-xl-7">
                                         <div class="home-product-content">
                                             <div class="home-product-star">
                                                 <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -426,9 +444,11 @@
                             {{-- LOOP --}}
                                 <div class="home-product">
                                     <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
                                                 <div class="home-product-cart">
                                                     <div>
                                                         <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -439,7 +459,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-7">
                                             <div class="home-product-content">
                                                 <div class="home-product-star">
                                                     <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -461,9 +481,11 @@
                                 </div>
                                 <div class="home-product">
                                     <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
                                                 <div class="home-product-cart">
                                                     <div>
                                                         <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -474,7 +496,44 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-7">
+                                            <div class="home-product-content">
+                                                <div class="home-product-star">
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span><i class="far fa-star"></i></span>
+                                                    <span><i class="far fa-star"></i></span>
+                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
+                                                </div>
+                                                <div class="home-product-name">
+                                                    <a href="">Tên sản phẩm</a>
+                                                </div>
+                                                <div class="home-product-price">
+                                                    {{ number_format(500000) }} VND
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-product">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-xl-5">
+                                            <div class="home-product-img h-image-scale">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
+                                                <div class="home-product-cart">
+                                                    <div>
+                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href=""><i class="far fa-heart"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xl-7">
                                             <div class="home-product-content">
                                                 <div class="home-product-star">
                                                     <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -503,9 +562,11 @@
                             </div>
                             <div class="home-product">
                                 <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-6">
+                                    <div class="col-12 col-sm-12 col-xl-5">
                                         <div class="home-product-img h-image-scale">
-                                            <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                            </a>
                                             <div class="home-product-cart">
                                                 <div>
                                                     <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -516,7 +577,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-sm-12 col-md-6">
+                                    <div class="col-12 col-sm-12 col-xl-7">
                                         <div class="home-product-content">
                                             <div class="home-product-star">
                                                 <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -539,9 +600,11 @@
                             {{-- LOOP --}}
                                 <div class="home-product">
                                     <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
                                                 <div class="home-product-cart">
                                                     <div>
                                                         <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -552,7 +615,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-7">
                                             <div class="home-product-content">
                                                 <div class="home-product-star">
                                                     <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -574,9 +637,11 @@
                                 </div>
                                 <div class="home-product">
                                     <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
                                                 <div class="home-product-cart">
                                                     <div>
                                                         <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -587,7 +652,44 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-7">
+                                            <div class="home-product-content">
+                                                <div class="home-product-star">
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span><i class="far fa-star"></i></span>
+                                                    <span><i class="far fa-star"></i></span>
+                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
+                                                </div>
+                                                <div class="home-product-name">
+                                                    <a href="">Tên sản phẩm</a>
+                                                </div>
+                                                <div class="home-product-price">
+                                                    {{ number_format(500000) }} VND
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-product">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-xl-5">
+                                            <div class="home-product-img h-image-scale">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
+                                                <div class="home-product-cart">
+                                                    <div>
+                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href=""><i class="far fa-heart"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xl-7">
                                             <div class="home-product-content">
                                                 <div class="home-product-star">
                                                     <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -616,9 +718,11 @@
                             </div>
                             <div class="home-product">
                                 <div class="row">
-                                    <div class="col-12 col-sm-12 col-md-6">
+                                    <div class="col-12 col-sm-12 col-xl-5">
                                         <div class="home-product-img h-image-scale">
-                                            <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                            </a>
                                             <div class="home-product-cart">
                                                 <div>
                                                     <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -629,7 +733,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-sm-12 col-md-6">
+                                    <div class="col-12 col-sm-12 col-xl-7">
                                         <div class="home-product-content">
                                             <div class="home-product-star">
                                                 <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -652,9 +756,11 @@
                             {{-- LOOP --}}
                                 <div class="home-product">
                                     <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
                                                 <div class="home-product-cart">
                                                     <div>
                                                         <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -665,7 +771,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-7">
                                             <div class="home-product-content">
                                                 <div class="home-product-star">
                                                     <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
@@ -687,9 +793,11 @@
                                 </div>
                                 <div class="home-product">
                                     <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
                                                 <div class="home-product-cart">
                                                     <div>
                                                         <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -700,7 +808,44 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-6">
+                                        <div class="col-12 col-sm-12 col-xl-7">
+                                            <div class="home-product-content">
+                                                <div class="home-product-star">
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
+                                                    <span><i class="far fa-star"></i></span>
+                                                    <span><i class="far fa-star"></i></span>
+                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
+                                                </div>
+                                                <div class="home-product-name">
+                                                    <a href="">Tên sản phẩm</a>
+                                                </div>
+                                                <div class="home-product-price">
+                                                    {{ number_format(500000) }} VND
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-product">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-xl-5">
+                                            <div class="home-product-img h-image-scale">
+                                                <a href="{{ url('chitiet') }}">
+                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                </a>
+                                                <div class="home-product-cart">
+                                                    <div>
+                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                                    </div>
+                                                    <div>
+                                                        <a href=""><i class="far fa-heart"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-xl-7">
                                             <div class="home-product-content">
                                                 <div class="home-product-star">
                                                     <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
