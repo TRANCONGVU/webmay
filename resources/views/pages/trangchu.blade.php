@@ -76,7 +76,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -107,7 +107,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-2.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-2.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -138,7 +138,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-3.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-3.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -169,7 +169,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-4.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-4.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -241,7 +241,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -272,7 +272,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-2.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-2.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -303,7 +303,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-3.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-4.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -334,7 +334,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/best-sale-4.jpg') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -409,7 +409,7 @@
                                     <div class="col-12 col-sm-12 col-xl-5">
                                         <div class="home-product-img h-image-scale">
                                             <a href="{{ url('chitiet') }}">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                             </a>
                                             <div class="home-product-cart">
                                                 <div>
@@ -447,7 +447,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -484,7 +484,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -521,7 +521,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -565,7 +565,7 @@
                                     <div class="col-12 col-sm-12 col-xl-5">
                                         <div class="home-product-img h-image-scale">
                                             <a href="{{ url('chitiet') }}">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                             </a>
                                             <div class="home-product-cart">
                                                 <div>
@@ -603,7 +603,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -640,7 +640,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -677,7 +677,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -721,7 +721,7 @@
                                     <div class="col-12 col-sm-12 col-xl-5">
                                         <div class="home-product-img h-image-scale">
                                             <a href="{{ url('chitiet') }}">
-                                                <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                             </a>
                                             <div class="home-product-cart">
                                                 <div>
@@ -759,7 +759,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -796,7 +796,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
@@ -833,7 +833,7 @@
                                         <div class="col-12 col-sm-12 col-xl-5">
                                             <div class="home-product-img h-image-scale">
                                                 <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/best-sale-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
                                                 </a>
                                                 <div class="home-product-cart">
                                                     <div>
