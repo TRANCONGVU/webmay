@@ -28,16 +28,17 @@
 	            </div>
 	            <div class="col-md-2 bottom">
 	                <span>Liên hệ</span>
-	                <a href="">tư vấn vào thứ 2 - chủ nhật 9:00-18:00</a>
-	                <a href="">Địa chỉ : số 201 NGuyễn đức cảnh,p.cát dài,q.lê chân,tp.hải phòng</a>
+	                <a href=""><i class="fas fa-phone mr-1" style="transform: rotate(90deg);"></i>tư vấn vào thứ 2 - chủ nhật 9:00-18:00</a>
+	                <a href=""><i class="fas fa-map-marker-alt mr-1"></i>Địa chỉ : số 201 NGuyễn đức cảnh,p.cát dài,q.lê
+	                    chân,tp.hải phòng</a>
 
 	            </div>
 	            <div class="col-md-3 bottom">
 	                <span>Đăng ký để nhận tin</span>
 	                <a href="">nhận tất cả thông báo của Sự Kiện,Khuyến Mãi và các ưu đãi khác.Đăng ký ngay hôm nay.</a>
 	                <div class="input-bot d-flex">
-	                    <input type="email" placeholder="Điền email của bạn tại đây">
-	                    <button disabled="" style="padding: 5px;">CONRFIM</button>
+	                    <input type="email" placeholder="Điền địa chỉ email của bạn tại đây">
+	                    <button class="ml-1" style="padding: 5px;">CONRFIM</button>
 	                </div>
 	                <div class="lienket d-flex">
 	                    <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -50,6 +51,9 @@
 	            </div>
 	        </div>
 
+	    </div>
+	    <div class="container-fluid p-0 copyright">
+	        <i class="far fa-copyright"></i>Bản quyền thuộc về Công Ty TNHH Thương Mại Hải Thu.
 	    </div>
 	</footer>
 

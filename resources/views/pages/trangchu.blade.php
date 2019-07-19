@@ -11,7 +11,7 @@
                     </div>
                     <div class="home-slide-content">
                         <div class="home-slide-content-text">
-                            <span>Dòng sản phẩm mới <br></span>
+                            <span class="text-uppercase">Dòng sản phẩm mới <br></span>
                             <span>Súng bắn đinh, <br> ghim meitle <br></span>
                             <span>Dòng sản phẩm được thiết kế để tối ưu hóa hiệu suất hoạt động cho người dùng. <br> Thân máy làm từ chất liệu cao cấp, chịu lực tốt, chống biến dạng khi va đập, <br> chống ăn mòn khi làm việc trong điều kiện khắc nghiết</span>
                         </div>

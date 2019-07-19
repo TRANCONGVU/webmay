@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
     <div class="tintuc">Tin Tức</div>
-    <div class="row">
+    <div class="row tintuc-item">
 
         <div class="col-md-6">
             <div class="menu-left d-flex" style="height: 100%;">
@@ -23,10 +23,7 @@
             </div>
         </div>
     </div>
-</div>
-<div class="container">
-    
-    <div class="row">
+    <div class="row tintuc-item">
 
         <div class="col-md-6">
             <div class="menu-left d-flex" style="height: 100%;">
@@ -47,10 +44,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="container">
 
-    <div class="row">
+    <div class="row tintuc-item">
 
         <div class="col-md-6">
             <div class="menu-left d-flex" style="height: 100%;">

@@ -54,16 +54,16 @@
                 <span ml-5>Mã : </span>
                 <a href="#">10001</a>
             </div>
-            <div class="body-info">
+            <div class="body-info d-flex flex-column">
                 <span>Bộ dụng cụ de walt - máy khoan</span>
                 <span>500.000 vnd</span>
 
             </div>
             <div class="danhgia">
                 <div>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
+                    <i class="far fa-star bg-danhgia"></i>
+                    <i class="far fa-star bg-danhgia"></i>
+                    <i class="far fa-star bg-danhgia"></i>
                     <i class="far fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
@@ -74,9 +74,9 @@
                 thêm vào giỏ hàng của bạn
             </button>
             <div class="like mt-4">
-                <img src="images/heath.png" alt="">
-                <img src="images/icon-phone.png" alt="">
-                <img src="images/icon-mail.png" alt="">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-phone" style="transform: rotate(90deg);"></i>
+                <i class="far fa-envelope"></i>
             </div>
         </div>
     </div>
@@ -97,13 +97,13 @@
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum, vero accusantium aut
+                <div class="tab-pane fade show active my-4" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                    <p style="line-height: 34px; color : #666666">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum, vero accusantium aut
                         saepe laudantium repellendus molestias provident modi natus aliquam earum, expedita excepturi,
                         quo vel ducimus beatae. Cumque, reiciendis!</p>
                 </div>
 
-                <div class="tab-pane fade text-capitalize" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                <div class="tab-pane fade text-capitalize my-4" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <div class="tab-info">
                         <span>loại mặt hàng</span>
                         <a href="#" class="ml-3">dụng cụ điện</a>
@@ -113,7 +113,7 @@
                         <a href="#" class="ml-3">dcd2013</a>
                     </div>
                     <div class="tab-info">
-                        <span>xuất xư</span>
+                        <span>xuất xứ</span>
                         <a href="#" class="ml-3">gemany</a>
                     </div>
                     <div class="tab-info">
@@ -195,15 +195,50 @@
                             <h6>Được đánh giá bởi <span>Vũ</span> ngày 18 / 7 / 2019</h6>
                         </div>
                         <div class="my-rate d-flex flex-column">
-                            <span>bạn đang đánh giá :</span>
-                            <span>bộ dụng cụ de walt - máy khoan</span>
+                            <div class="d-flex flex-row mt-4">
+                                    <span>bạn đang đánh giá :</span>
+                                    <span class="ml-2">bộ dụng cụ de walt - máy khoan</span>
+                            </div>
+
+                            <span class="my-2"> Đánh giá của bạn <span class="text-danger">*</span></span>
+                            <div class="danhgia">
+                                <p>Giá tiền</p>
+                                <div class="ml-4">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star "></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="danhgia">
+                                <p>Phục vụ</p>
+                                <div class="ml-4">
+                                    <i class="far fa-star "></i>
+                                    <i class="far fa-star "></i>
+                                    <i class="far fa-star "></i>
+                                    <i class="far fa-star "></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="danhgia">
+                                <p>Chất lượng</p>
+                                <div class="ml-4">
+                                    <i class="far fa-star "></i>
+                                    <i class="far fa-star "></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star "></i>
+                                </div>
+                            </div>
+
                             <form>
                                 <div class="form-group">
-                                    <label for="name">Họ và tên</label>
+                                    <label for="name">Họ và tên<span class="text-danger">*</span></label>
                                     <input type="email" class="form-control" id="name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="name">Tóm Lược <span class="text-danger">*</span></label>
+                                    <label for="name">Tóm Lược<span class="text-danger">*</span> <span class="text-danger">*</span></label>
                                     <input type="email" class="form-control" id="name">
                                 </div>
                                 <div class="form-group">
@@ -223,10 +258,10 @@
     </div>
 
 </div>
-<div class="container-fluid map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.139178592055!2d105.85005671493188!3d20.98705738602095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac6ad5fe3fd1%3A0x45bc35c65e00a189!2zMjAxIE5ndXnhu4VuIMSQ4bupYyBD4bqjbmgsIFTGsMahbmcgTWFpLCBIYWkgQsOgIFRyxrBuZywgSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1563467561233!5m2!1svi!2s"
-            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+<div class="container-fluid map p-0 m-0">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.139178592055!2d105.85005671493188!3d20.98705738602095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac6ad5fe3fd1%3A0x45bc35c65e00a189!2zMjAxIE5ndXnhu4VuIMSQ4bupYyBD4bqjbmgsIFTGsMahbmcgTWFpLCBIYWkgQsOgIFRyxrBuZywgSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1563467561233!5m2!1svi!2s"
+        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 @endsection
