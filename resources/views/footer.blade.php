@@ -53,7 +53,7 @@
 
 	    </div>
 	    <div class="container-fluid p-0 copyright">
-	        <i class="far fa-copyright"></i>Bản quyền thuộc về Công Ty TNHH Thương Mại Hải Thu.
+	        <i class="far fa-copyright mr-2"></i>Bản quyền thuộc về Công Ty TNHH Thương Mại Hải Thu.
 	    </div>
 	</footer>
 
