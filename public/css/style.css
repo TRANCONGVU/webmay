@@ -240,7 +240,7 @@ body {
     width: 20px;
     height: 20px;
     object-fit: contain;
-    margin-right: 5px;
+    margin-right: 25px;
 }
 * {
     padding: 0;
@@ -300,22 +300,25 @@ img {
     display: block;
     width: 171px;
     height: 48px;
-    background-color: #fff;
+
     text-align: center;
     padding-top: 10px;
     text-decoration: none;
-    color: #000;
+
     font-size: 16px;
-    border: 1px solid black !important;
     font-weight: bold;
     /* font-family: 'GT-MEDIUM'; */
+    background-color:  rgb(23 , 85, 108);
+    color:#fff;
 }
 
 .chitiet a:hover {
-    background-color:  rgb(23 , 85, 108);
-    color:#fff;
+    background-color: #fff;
     border: none;
-    transition: all 0.5s;
+    transition: 0.5s;
+    color: #000;
+    border: 1px solid black !important;
+
 }
 
 .page-item.active .page-link {
@@ -357,9 +360,9 @@ img {
 }
 .trangchitiet .carousel-item{
     width: 100%;
-    height: 580px;
+    height: 540px;
     float: right;
-    background: rgb(242 , 242 ,242);
+    background: rgb(202, 193, 193);
     padding: 40px;
 }
 .trangchitiet .carousel-item img {
@@ -374,11 +377,11 @@ img {
     justify-content: center;
     position: absolute;
     height: 100px;
-    width: 130px;
+    width: 100px;
     padding: 10px;
     /* border: 1px solid #000; */
     background: rgb(242 , 242 ,242);
-    left: -265px;
+    left: -195px;
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -395,19 +398,19 @@ img {
 }
 .trangchitiet .carousel-indicators li:nth-child(2)
 {
-    top: 120px;
+    top: 110px;
 }
 .trangchitiet .carousel-indicators li:nth-child(3)
 {
-    top: 240px;
+    top: 220px;
 }
 .trangchitiet .carousel-indicators li:nth-child(4)
 {
-    top: 360px;
+    top: 330px;
 }
 .trangchitiet .carousel-indicators li:nth-child(5)
 {
-    top: 480px;
+    top: 440px;
 }
 .head-info span:nth-child(1){
     color: #ed8c4a;
@@ -451,16 +454,17 @@ img {
 }
 .muangay {
     padding: 7px 20px;
-    background: #fff;
-    color: #000;
-    border: 1px solid #000;
+    background: rgb(23,85,108);
+    color: #fff;
+    border: none;
     text-transform: capitalize;
     margin-top: 20px;
     width: 300px;
 }
 .muangay:hover {
-    background: rgb(23,85,108);
-    color: #fff;
+    background: #fff;
+    color : rgb(23,85,108);
+    border: 1px solid #000;
 }
 .like i {
     font-size: 20px;
@@ -472,6 +476,7 @@ img {
 }
 .nav-tabs .nav-link.active  {
     border-radius: 0;
+    font-weight: 600;
     color: #000;
 }
 .chi-tiet-sp .nav-link a{
@@ -715,4 +720,17 @@ img {
       margin-bottom: 20px; } }
 .tintuc-item {
     margin-top: 20px;
+}
+.xanh {
+    color: black !important;
+}
+.xanh:hover {
+    color : rgb(23 , 85, 108) !important;
+}
+.caroul {
+    color : #fff;
+    font-size: 30px;
+}
+.caroul:hover {
+    color : rgb(23,85,108);
 }

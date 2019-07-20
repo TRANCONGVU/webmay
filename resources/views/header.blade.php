@@ -3,6 +3,11 @@
         Đăng ký thành viên để nhận giá thương mại và nhiều ưu đãi khác
     </div>
 </div>
+<div class="container-fluid p-0 m-0">
+    <div class="title-head2">
+        Đăng ký thành viên ngay
+    </div>
+</div>
 <div class="container-fluid">
 
     <div class="container an d-flex justify-content-end">

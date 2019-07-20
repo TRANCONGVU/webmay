@@ -38,7 +38,7 @@
 	                <a href="">nhận tất cả thông báo của Sự Kiện,Khuyến Mãi và các ưu đãi khác.Đăng ký ngay hôm nay.</a>
 	                <div class="input-bot d-flex">
 	                    <input type="email" placeholder="Điền địa chỉ email của bạn tại đây">
-	                    <button class="ml-1" style="padding: 5px;">CONRFIM</button>
+	                    <button class="ml-1" style="padding: 5px;">CONFIRM</button>
 	                </div>
 	                <div class="lienket d-flex">
 	                    <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -58,6 +58,6 @@
 	</footer>
 
 	<section class="back-to-top">
-	    <div class="back-to-top-button"><i class="fas fa-angle-double-up"></i></div>
+	    <div class="back-to-top-button"><i class="fas fa-arrow-up"></i></div>
 	</section>
 	<script type="text/javascript" src="js/backtotop.js"></script>

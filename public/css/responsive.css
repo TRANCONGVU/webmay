@@ -11,6 +11,7 @@
 .input-bot input {
     width: 270px;
     height: 35px;
+    border : 1px solid black;
 }
 .input-bot input::placeholder{
     font-size: 13px !important;
@@ -18,6 +19,12 @@
 }
 .head div, form{
     margin-right: 20px;
+}
+.trangchitiet .carousel-indicators li{
+    left: -250px;
+}
+.carousel-item {
+    height: 580px !important;
 }
 }
 @media only screen and (max-width: 1200px) {
@@ -41,7 +48,7 @@
 		font-size: 13px;
 	}
     .trangchitiet .carousel-indicators li{
-        left: -225px;
+        left: -190px;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -49,7 +56,7 @@
 	    max-width: 932px;
     }
     .trangchitiet .carousel-indicators li{
-        left: -200px;
+        display: none;
     }
 }
 @media only screen and (max-width: 1030px) {
@@ -136,6 +143,12 @@
 @media only screen and (max-width: 475px) {
     .chi-tiet-sp .nav-item {
         width: 100%;
+    }
+    .title-head {
+        display: none;
+    }
+    .title-head2 {
+        display: block;
     }
 }
 @media only screen and (max-width: 440px) {
