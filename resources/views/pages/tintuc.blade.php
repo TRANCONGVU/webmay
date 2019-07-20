@@ -1,6 +1,19 @@
 @extends('master-layout')
 @section('content')
 <div class="container">
+        <section class="bread-crumb">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="breadcrumb">
+                                <a class="breadcrumb-item" href="#">trang chủ</a>
+                                <a class="breadcrumb-item" href="#">tin tức</a>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
     <div class="tintuc">Tin Tức</div>
     <div class="row tintuc-item">
 

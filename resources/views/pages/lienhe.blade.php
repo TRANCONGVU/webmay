@@ -7,9 +7,19 @@
     </div>
 
     <div class="container">
-        <div class="row breadcumb">
-            <span>Trang chủ</span> <span> <i class="fas fa-angle-right"></i> </span> <span class="lienhe">Liên hệ</span>
-        </div>
+            <section class="bread-crumb">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <nav class="breadcrumb">
+                                    <a class="breadcrumb-item" href="#">trang chủ</a>
+                                    <a class="breadcrumb-item" href="#">liên hệ</a>
+
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
         <div class="row">
             <div class="col-md-6 contact">
@@ -27,7 +37,7 @@
                         <span>Nội dung mua hàng</span> <span>*</span> <br>
                         <textarea name="content" rows="7"></textarea>
                     </p>
-                    <button class="muangay">
+                    <button class="muangay bg-xanh">
                         <span class="text-white">GỬI THÔNG TIN</span>
                     </button>
                 </form>

@@ -261,12 +261,14 @@ img {
 }
 
 .tintuc {
-    margin-top: 76px;
+    margin-top: 20px;
     margin-bottom: 33px;
     font-size: 25px;
     /* font-family: 'GT-MEDIUM'; */
 }
-
+.bg-xanh {
+    background: rgb(23 , 85, 108) !important;
+}
 .menu-left {}
 
 .right {
