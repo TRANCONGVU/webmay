@@ -32,3 +32,8 @@ Route::get('/sanpham', function () {
 
 });
 
+Route::get('/login', function () {
+    return view('pages.login');
+
+});
+
