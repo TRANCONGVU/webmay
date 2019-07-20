@@ -1,6 +1,6 @@
 
 /*---------------------------------------Responsive---------------------------------------*/
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1600px){
 .container {
     max-width: 1700px !important;
 }
@@ -22,9 +22,30 @@
 }
 .trangchitiet .carousel-indicators li{
     left: -250px;
+    height: 110px;
+}
+.trangchitiet .carousel-indicators li:nth-child(1)
+{
+    top: 0;
+}
+.trangchitiet .carousel-indicators li:nth-child(2)
+{
+    top: 120px;
+}
+.trangchitiet .carousel-indicators li:nth-child(3)
+{
+    top: 240px;
+}
+.trangchitiet .carousel-indicators li:nth-child(4)
+{
+    top: 360px;
+}
+.trangchitiet .carousel-indicators li:nth-child(5)
+{
+    top: 480px;
 }
 .carousel-item {
-    height: 580px !important;
+    height: 590px !important;
 }
 }
 @media only screen and (max-width: 1200px) {
