@@ -1,20 +1,20 @@
-$('.doitac-content-carousel').owlCarousel({
+$('.tintuc').owlCarousel({
     loop:true,
     margin:10,
     responsiveClass:true,
-    dots:false,
+    dots:true,
     nav:false,
     autoplay:true,
-    autoplayTimeout:3000,
+    autoplayTimeout:8000,
     responsive:{
         0:{
-            items:3,
+            items:1,
         },
         600:{
-            items:5,
+            items:3,
         },
         1000:{
-            items:7,
+            items:4,
         }
     }
 })

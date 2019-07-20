@@ -237,11 +237,11 @@
                                     <input type="email" class="form-control" id="name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="name">Tóm Lược<span class="text-danger">*</span> <span class="text-danger">*</span></label>
+                                    <label for="name">Tóm Lược<span class="text-danger">*</span></label>
                                     <input type="email" class="form-control" id="name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="rate">Viết Đánh Giá</label>
+                                    <label for="rate">Viết Đánh Giá <span class="text-danger">*</span></label>
                                     <textarea class="form-control" id="rate" rows="3"></textarea>
                                 </div>
                             </form>

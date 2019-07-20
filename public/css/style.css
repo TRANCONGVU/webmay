@@ -280,6 +280,7 @@ img {
     font-size: 25px;
     /* font-family: 'GT-MEDIUM'; */
     font-weight: bold;
+    color: #000;
 }
 
 .right .text-content {
@@ -733,4 +734,47 @@ img {
 }
 .caroul:hover {
     color : rgb(23,85,108);
+}
+.tin-title {
+    font-size: 24px;
+    font-weight: bold;
+    color : rgb(23,85,108);
+}
+.tin-icon {
+    font-size: 15px;
+}
+.tin-contetn {
+    margin : 25px 0;
+}
+.tin-contetn span {
+    margin: 10px  0;
+}
+.tin-contetn img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+.tin-slide {
+    font-size : 15px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.tin-slide:hover {
+    text-decoration: #F2F2F2;
+    color: #ED4956;
+}
+.tin-icon-slide
+{
+    color : #fff;
+    font-size : 10px;
+}
+.tintuc .item img {
+    position: relative;
+    height: 200px;
+}
+.tin-title-silde {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
 }
