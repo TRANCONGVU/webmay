@@ -469,6 +469,7 @@ section.menu-mobile-active{
 ul.menu-left-ul-lv-1{
     list-style: none;
     padding: 10px;
+    background: #fff;
 }
 ul.menu-left-ul-lv-1 li{
 	position: relative;
@@ -525,7 +526,7 @@ ul.menu-left-ul-lv-1 li>i:hover{
 }
 ul.menu-left-ul-lv-child{
 	overflow: hidden;
-    /* background: #e8e8e8; */
+    background: #fff;
     list-style: none;
     padding: 10px;
 }
@@ -584,11 +585,17 @@ section.back-to-top{
 }
 .back-to-top-button{
     position: fixed;
-	background: rgb(23 , 85 , 108);
-	color: #fff;
-    font-size: 20px;
+	background: rgb(64 , 64 , 64);
+	color: rgb(117, 155, 155);
+    font-size: 25px;
     right: 30px;
     bottom: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
     padding: 0 10px;
 	/* border-radius: 100px; */
 	cursor: pointer;
@@ -641,6 +648,7 @@ section.back-to-top{
 .head input {
     width: 300px;
     padding: 1px;
+    border : 1px solid black;
 }
 .head input::placeholder {
     font-size: 12px;
@@ -784,6 +792,15 @@ footer {
     margin: 20px 0 0 10px;
 }
 .title-head {
+    height: 30px;
+    background: rgb(23 , 85 , 108);
+    color : #fff;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.title-head2{
+    display: none;
     height: 30px;
     background: rgb(23 , 85 , 108);
     color : #fff;

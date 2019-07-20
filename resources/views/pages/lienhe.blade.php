@@ -7,19 +7,19 @@
     </div>
 
     <div class="container">
-            <section class="bread-crumb">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <nav class="breadcrumb">
-                                    <a class="breadcrumb-item" href="#">trang chủ</a>
-                                    <a class="breadcrumb-item" href="#">liên hệ</a>
+        <section class="bread-crumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="breadcrumb">
+                            <a class="breadcrumb-item" href="#">trang chủ</a>
+                            <a class="breadcrumb-item" href="#">liên hệ</a>
 
-                                </nav>
-                            </div>
-                        </div>
+                        </nav>
                     </div>
-                </section>
+                </div>
+            </div>
+        </section>
 
         <div class="row">
             <div class="col-md-6 contact">
@@ -37,7 +37,7 @@
                         <span>Nội dung mua hàng</span> <span>*</span> <br>
                         <textarea name="content" rows="7"></textarea>
                     </p>
-                    <button class="muangay bg-xanh">
+                    <button class="muangay bg-xanh" style="width : 190px">
                         <span class="text-white">GỬI THÔNG TIN</span>
                     </button>
                 </form>
@@ -49,23 +49,29 @@
                         <div class="openning">
                             <div class="d-flex">
                                 <p class="left icon"><img src="images/icon-clock.png"></p>
-                                <p class="left tieude">Giờ mở cửa </p>
+                                <div class="d-flex flex-column w-100">
+                                    <p class="left tieude">Giờ mở cửa </p>
+                                    <span>Các ngày trong tuần Thứ hai - Chủ nhật | 9:00 - 18:00 </span></p>
+                                    <div style="clear: both;"></div>
+                                </div>
                             </div>
 
-                            <span>Các ngày trong tuần </span><br>
-                            <span>Thứ hai - Chủ nhật | 9:00 - 18:00 </span></p>
-                            <div style="clear: both;"></div>
+
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="openning">
                             <div class="d-flex">
                                 <p class="left icon"><img src="images/icon-phone.png"></p>
-                                <p class="left tieude">
-                                    Tư vấn vào Thứ hai - Chủ nhật : 9:00 - 18:00</p>
+                                <div class="d-flex flex-column">
+                                    <p class="left tieude">
+                                        Tư vấn vào Thứ hai - Chủ nhật : 9:00 - 18:00</p>
+                                    <span>(+84)941.685.419 </span><br></p>
+                                    <div style="clear: both;"></div>
+                                </div>
                             </div>
-                            <span>(+84)941.685.419 </span><br></p>
-                            <div style="clear: both;"></div>
+
+
                         </div>
                     </div>
                 </div>
@@ -74,23 +80,31 @@
                         <div class="openning">
                             <div class="d-flex">
                                 <p class="left icon"><img src="images/location.png"></p>
-                                <p class="left tieude">
-                                    Địa chỉ </p>
+                                <div class="d-flex flex-column">
+                                    <p class="left tieude">
+                                        Địa chỉ </p>
+                                    <span>Số 201 Nguyễn đức cảnh, P.Cát Dài, Q.Lê Chân, TP. hải phòng</span>
+                                    </p>
+                                    <div style="clear: both;"></div>
+                                </div>
+
                             </div>
-                            <span>Số 201 Nguyễn đức cảnh, P.Cát Dài, Q.Lê Chân, TP. hải phòng</span>
-                            </p>
-                            <div style="clear: both;"></div>
+
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="openning">
                             <div class="d-flex">
                                 <p class="left icon"><img src="images/icon-mail.png"></p>
-                                <p class="left tieude">
-                                    Thư điện tử </p>
+                                <div class="d-flex flex-column">
+                                    <p class="left tieude">
+                                        Thư điện tử </p>
+                                    <span>haithu.company@gmail.com </span></p>
+                                    <div style="clear: both;"></div>
+                                </div>
+
                             </div>
-                            <span>haithu.company@gmail.com </span></p>
-                            <div style="clear: both;"></div>
+
                         </div>
                     </div>
                 </div>

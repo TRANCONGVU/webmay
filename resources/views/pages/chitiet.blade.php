@@ -2,7 +2,7 @@
 @section('content')
 <div class="container trangchitiet">
     <div class="row">
-        <div class="col-md-5 offset-md-2">
+        <div class="col-md-6 offset-md-1">
             <div id="carousel-sp" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-sp" data-slide-to="0" class="active">
@@ -39,12 +39,11 @@
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel-sp" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                   <span class="caroul"><i class="fas fa-arrow-circle-left"></i></span>
+
                 </a>
                 <a class="carousel-control-next" href="#carousel-sp" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                   <span class="caroul"><i class="fas fa-arrow-circle-right"></i></span>
                 </a>
             </div>
         </div>
@@ -75,8 +74,8 @@
             </button>
             <div class="like mt-4">
                 <i class="far fa-heart"></i>
-                <i class="fas fa-phone" style="transform: rotate(90deg);"></i>
-                <i class="far fa-envelope"></i>
+                <i class="fas fa-phone xanh" style="transform: rotate(90deg);"></i>
+                <i class="far fa-envelope xanh"></i>
             </div>
         </div>
     </div>
