@@ -24,7 +24,9 @@ Route::get('/tintuc', function () {
 Route::get('/chitiet', function () {
     return view('pages.chitiet');
 });
-
+Route::get('/chitiettin', function () {
+    return view('pages.chitiettintuc');
+});
 Route::get('/sanpham', function () {
     return view('pages.sanPham');
 
