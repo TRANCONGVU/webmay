@@ -486,18 +486,24 @@ img {
 
 .muangay {
     padding: 7px 20px;
-    background: rgb(23, 85, 108);
-    color: #fff;
+    background: #fff;
     border: none;
     text-transform: capitalize;
+    border:1px solid black;
     margin-top: 20px;
     width: 300px;
 }
-
+.taoodayne .muangay a{
+    color: #000 !important;
+}
+.taoodayne  .muangay a:hover{
+    color : white !important;
+}
 .muangay:hover {
     background: #fff;
-    color: rgb(23, 85, 108);
-    border:1px solid black;
+    color: #dedede;
+    background: rgb(23, 85, 108);
+
 }
 
 .like i {
