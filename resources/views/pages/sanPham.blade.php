@@ -142,7 +142,7 @@
                         <div class="folder-like">
                             <p class="like-title">thư mục yêu thích</p>
                             <p class="like-text">
-                                Bạn không có ản phẩm nào <br>
+                                Bạn không có sản phẩm nào <br>
                                 trong mục yêu thích
 
                             </p>
@@ -236,11 +236,11 @@
                                             </div>
 
                                             <div class="gia">
-                                                {{ number_format(700000) }} VND
+                                                {{ number_format(500000) }} VND
                                             </div>
                                             <div>
-                                                <span class="sale">700000 vnd</span>
-                                                <span>sale 10%</span>
+                                                <span class="sale">700,000 VND</span>
+                                                <span>(sale 10%)</span>
                                             </div>
 
                                         </div>
@@ -269,11 +269,11 @@
                                             </div>
 
                                             <div class="gia">
-                                                {{ number_format(700000) }} VND
+                                                {{ number_format(500000) }} VND
                                             </div>
                                             <div>
-                                                <span class="sale">700000 vnd</span>
-                                                <span>sale 10%</span>
+                                                <span class="sale">700,000 VND</span>
+                                                <span>(sale 10%)</span>
                                             </div>
 
                                         </div>
@@ -304,11 +304,11 @@
                                             </div>
 
                                             <div class="gia">
-                                                {{ number_format(700000) }} VND
+                                                {{ number_format(500000) }} VND
                                             </div>
                                             <div>
-                                                <span class="sale">700000 vnd</span>
-                                                <span>sale 10%</span>
+                                                <span class="sale">700,000 VND</span>
+                                                <span>(sale 10%)</span>
                                             </div>
 
                                         </div>

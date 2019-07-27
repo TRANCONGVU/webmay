@@ -127,7 +127,6 @@
 /*HOME BEST SALE*/
 .product-name a{
 	color: #17556C;
-	font-size: 30px !important;
 }
 .h-best-sale-product{
 	background-color: #F2F2F2;
@@ -186,9 +185,35 @@
 }
 .h-best-sale-product-content a{
     /*color: #17556C;*/
-    font-size: 16px;
     text-transform: capitalize;
 	text-decoration: none;
+}
+.h-best-sale-product-content .product-name  a {
+	color: #17556C;
+    font-size: 20px;
+    font-family: 'sf-regular';
+}
+.h-best-sale-product-content .id_product a {
+	color: #17556C;
+    font-size: 15px;
+    font-family: 'sf-regular';
+}
+.h-best-sale-product-content .gia {
+    font-family: "GotHam-medium" ;
+    font-size: 23px !important;
+    text-transform: uppercase;
+    color : #666666;
+    letter-spacing: 1px;
+    /* font-weight: bold; */
+}
+.h-best-sale-product-content .sale {
+    font-family: "GotHam-medium" ;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    color : #666666;
+    letter-spacing: 1px;
+    text-decoration-line: line-through;
+    /* font-weight: bold; */
 }
 .h-best-sale-product-content div:nth-child(4){
     font-size: 16px;

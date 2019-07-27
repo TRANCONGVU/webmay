@@ -477,11 +477,6 @@ img {
     display: flex;
 }
 
-.dn a{
-    color : #17556C;
-    font-size: 14px;
-
-}
 
 .head-info a {
     color: #666;
@@ -500,7 +495,7 @@ img {
 .muangay:hover {
     background: #fff;
     color: rgb(23, 85, 108);
-    border: 1px solid #000;
+    border:none;
 }
 
 .like i {

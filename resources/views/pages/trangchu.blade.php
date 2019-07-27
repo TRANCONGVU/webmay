@@ -102,11 +102,11 @@
                             </div>
 
                             <div class="gia">
-                                {{ number_format(700000) }} VND
+                                {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
@@ -133,11 +133,11 @@
                                 <a href="">Mã Sản Phẩm: vuFtrY</a>
                             </div>
                             <div class="gia">
-                                {{ number_format(700000) }} VND
+                                {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
@@ -164,11 +164,11 @@
                                 <a href="">Mã Sản Phẩm: vuFtrY</a>
                             </div>
                             <div class="gia">
-                                {{ number_format(700000) }} VND
+                                {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
@@ -195,11 +195,11 @@
                                 <a href="">Mã Sản Phẩm: vuFtrY</a>
                             </div>
                             <div class="gia">
-                                {{ number_format(700000) }} VND
+                                {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
@@ -271,8 +271,8 @@
                                 {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
@@ -302,8 +302,8 @@
                                 {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
@@ -333,8 +333,8 @@
                                 {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
@@ -364,8 +364,8 @@
                                 {{ number_format(500000) }} VND
                             </div>
                             <div>
-                                <span class="sale">700000 vnd</span>
-                                <span>sale 10%</span>
+                                <span class="sale">700,000 VND</span>
+                                <span>(sale 10%)</span>
                             </div>
 
                         </div>
