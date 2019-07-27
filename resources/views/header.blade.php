@@ -13,11 +13,15 @@
     <div class="container an d-flex justify-content-end">
         <div class="head d-flex justify-content-start mt-3">
             <div class="search">
-                <input type="text" placeholder="Tìm kiếm tại đây...">
-                <a><img src="images/search.png" alt=""></a>
+                <div>
+                    <input type="text" placeholder="Tìm kiếm tại đây...">
+                </div>
+                <div>
+                    <img src="images/search.png" alt="">
+                </div>
             </div>
             <form style="border-right : 1px solid black; padding-right : 10px;">
-                <div class="form-group">
+                <div class="form-group" style="display: flex; align-items: center;">
                     <select class="form-control" id="">
                         <option>VIE</option>
                         <option>ENG</option>
@@ -26,13 +30,13 @@
             </form>
             <div class="dn">
                 <img src="images/heath.png" alt="">
-                <a href="">Mục Yêu Thích</a>
+                <a href="" style="font-size: 14px;">Mục Yêu Thích</a>
             </div>
             <div class="dn">
                 <img src="images/user.png" alt="">
-                <a href="#login" data-toggle="modal">Đăng nhập</a>
-                <span class="text-lowercase">hoặc</span>
-                <a href="#signUp" data-toggle="modal">Đăng ký</a>
+                <a href="#login" data-toggle="modal">Đăng Nhập</a>
+                <span class="text-lowercase" style="padding: 0 5px;">hoặc</span>
+                <a href="#signUp" data-toggle="modal">Tạo Tài Khoản</a>
             </div>
         </div>
     </div>

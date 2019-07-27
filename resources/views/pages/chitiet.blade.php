@@ -1,4 +1,8 @@
 @extends('master-layout')
+@section('title')
+    chi tiết sản phẩm
+@endsection
+{{-- lllll --}}
 @section('content')
 <div class="container trangchitiet">
     <div class="row">
