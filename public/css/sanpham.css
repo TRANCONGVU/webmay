@@ -80,7 +80,15 @@ img {
 .content .content-left .accordion-box .box-1 .content-box .color-box li {
     margin-right: 5px;
 }
-
+.dropdown-1 .dropdown-menu {
+    min-width: 6rem !important;
+}
+.dropdown .dropdown-menu {
+    min-width: 9rem ;
+}
+.dropdown-menu  a:hover {
+    color: rgb(23,85,108) !important;
+}
 .content .content-left .accordion-box .box-1 .content-box .color-box li a {
     font-family: "sanfrancisco";
     font-size: 14px;
@@ -212,15 +220,22 @@ img {
     color: #000;
 }
 
-.content .content-right .product-list .collum-img-1 .sale-product-content a {
-    color: #000;
-    text-decoration: none;
-}
 
 .content .content-right .product-list .collum-img-1 .sale-product-content .sale-color-star {
     color: #ED8C4A !important;
 }
-
+.name-product {
+    font-size: 20px;
+}
+.price-sale {
+    font-size: 20px;
+    font-weight: bold;
+}
+.price {
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: bold;
+}
 .add-1 a:hover {
     /* background-color: inherit; */
     border: none;
@@ -252,20 +267,26 @@ img {
 .icon-heart i:hover {
     color: #ED4956;
 }
-
+/*
 .content .content-right .pagina-tion .pagination .page-item {
     margin-right: 5px !important;
-}
-
+}*/
+/*
 .content .content-right .pagina-tion .pagination .page-item .page-link {
-    color: #000 !important;
-}
+    color: #000;
+}*/
 
 .content .content-right .pagina-tion .pagination .page-item .page-link:hover {
-    background: #17556C !important;
-    color: #fff !important;
+    border: 1px solid #000 ;
+    color: #000;
 }
-
+.content .content-right .pagina-tion .pagination .page-item .active  {
+    background: #17556c;
+    color: #fff;
+}
+.content .content-right .pagina-tion .pagination .page-item .active  a{
+    color: #fff;
+}
 @media (max-width: 992px) {
     .col-lg-3 {
         border-bottom: 1px solid #eee;

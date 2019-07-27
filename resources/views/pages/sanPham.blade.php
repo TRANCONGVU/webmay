@@ -63,22 +63,22 @@
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">loại mặt hàng</h3>
+                                    <h3 class="main-title">LOẠI MẶT HÀNG</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
                                 </div>
 
                                 <div class="content-box">
                                     <ul class="color-box box-colum">
-                                        <li><a href="#">dung cu dien <span>(5)</span></a></li>
-                                        <li><a href="#">dung cu khi nen <span>(2)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
-                                        <li><a href="#">dung cu chay pin <span>(1)</span></a></li>
+                                        <li><a href="#">Dụng Cụ Điện <span>(5)</span></a></li>
+                                        <li><a href="#">Dụng Cụ Khí Nén <span>(2)</span></a></li>
+                                        <li><a href="#">Dụng Cụ Chạy Pin <span>(1)</span></a></li>
+                                        <li><a href="#">Dụng Cụ Cầm Tay <span>(1)</span></a></li>
+                                        <li><a href="#"> Dụng Cụ Cắt Gọt <span>(1)</span></a></li>
+                                        <li><a href="#">Thiết Bị Dụng Cụ, Đo Lường <span>(1)</span></a></li>
+                                        <li><a href="#">Thiết Bị Hàn <span>(1)</span></a></li>
+                                        <li><a href="#">Vệ Sinh Công Nghiệp <span>(1)</span></a></li>
+                                        <li><a href="#">Phụ Kiện Khí Nén <span>(1)</span></a></li>
+                                        <li><a href="#">Đinh Công Nghiệp <span>(1)</span></a></li>
 
                                     </ul>
                                 </div>
@@ -86,25 +86,7 @@
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">giá</h3>
-                                    <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
-                                </div>
-
-                                <div class="content-box">
-                                    <ul class="color-box box-colum">
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="box-1">
-                                <div class="box-1-title">
-                                    <h3 class="main-title">nhãn hàng</h3>
+                                    <h3 class="main-title">GIÁ</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
                                 </div>
 
@@ -122,18 +104,36 @@
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">xuất xứ</h3>
+                                    <h3 class="main-title">NHÃN HÀNG</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
                                 </div>
 
                                 <div class="content-box">
                                     <ul class="color-box box-colum">
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
-                                        <li><a href="#">600.000 VND-100.000 VND <span>(5)</span></a></li>
+                                        <li><a href="#">DeWALT <span>(5)</span></a></li>
+                                        <li><a href="#">Stanley <span>(5)</span></a></li>
+                                        <li><a href="#"> Stanley <span>(5)</span></a></li>
+                                        <li><a href="#"> Stanley <span>(5)</span></a></li>
+                                        <li><a href="#"> Stanley <span>(5)</span></a></li>
+                                        <li><a href="#">Stanley <span>(5)</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="box-1">
+                                <div class="box-1-title">
+                                    <h3 class="main-title">XUẤT XỨ</h3>
+                                    <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
+                                </div>
+
+                                <div class="content-box">
+                                    <ul class="color-box box-colum">
+                                        <li><a href="#">Việt Nam<span>(5)</span></a></li>
+                                        <li><a href="#">China<span>(5)</span></a></li>
+                                        <li><a href="#">Việt Nam <span>(5)</span></a></li>
+                                        <li><a href="#">Việt Nam <span>(5)</span></a></li>
+                                        <li><a href="#"> Việt Nam<span>(5)</span></a></li>
+                                        <li><a href="#">Việt Nam <span>(5)</span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -161,22 +161,22 @@
                             <div class="search-box-left d-flex">
                                 <div class="dropdown">
 
-                                    <span>tìm kiếm theo:</span>
+                                    <span>Tìm kiếm theo:</span>
 
                                     <a href="#" data-toggle="dropdown">
-                                        tên sản phẩm <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                        Tên sản phẩm <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
                                     </a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Link 1</a>
-                                        <a class="dropdown-item" href="#">Link 2</a>
-                                        <a class="dropdown-item" href="#">Link 3</a>
+                                        <a class="dropdown-item" href="#">Tên Sản Phẩm</a>
+                                        <a class="dropdown-item" href="#">Giá Tiền</a>
+                                        <a class="dropdown-item" href="#">Đánh giá</a>
                                     </div>
 
                                 </div>
 
                                 <div class="dropdown dropdown-1 ">
 
-                                    <span>trình chiếu: </span>
+                                    <span>Trình chiếu: </span>
 
                                     <a href="#" data-toggle="dropdown">
                                         5 <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -216,7 +216,9 @@
                                             <a href="{{ url('chitiet') }}">
                                                 <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
                                             </a>
+
                                             <div class="h-best-sale-insert-cart">
+
                                                 <div style="border-right: 1px solid #fff;">
                                                     <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
                                                 </div>
@@ -249,6 +251,7 @@
                                                 <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
                                             </a>
                                             <div class="h-best-sale-insert-cart">
+
                                                 <div style="border-right: 1px solid #fff;">
                                                     <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
                                                 </div>
@@ -280,13 +283,16 @@
                                             <a href="{{ url('chitiet') }}">
                                                 <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
                                             </a>
+
                                             <div class="h-best-sale-insert-cart">
+
                                                 <div style="border-right: 1px solid #fff;">
                                                     <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
                                                 </div>
                                                 <div>
                                                     <a href=""><i class="far fa-heart"></i></a>
                                                 </div>
+
                                             </div>
                                         </div>
                                         <div class="h-best-sale-product-content">
@@ -307,15 +313,10 @@
 
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
 
                             <!-- product-box -->
-
-
-
                         </div>
 
 
