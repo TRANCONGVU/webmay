@@ -32,7 +32,9 @@ img {
     background: transparent;
     padding: 10px 0;
 }
-
+.hihi .icon-plus{
+    display: none;
+}
 .bread-crumb .breadcrumb .breadcrumb-item {
     font-size: 14px;
     font-family: "sanfrancisco";

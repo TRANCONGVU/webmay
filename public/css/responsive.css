@@ -7,7 +7,7 @@
 .head input {
     width: 450px;
     padding: 1px;
-    height: 55px;
+    height: 40px;
 }
 .input-bot input {
     width: 270px;
@@ -158,7 +158,9 @@
     .container{
         padding: 10px !important;
     }
-
+    .lienhe-padding {
+        padding-left: 0px;
+    }
 }
 @media only screen and (max-width: 687px) {
 

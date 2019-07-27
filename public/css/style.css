@@ -251,6 +251,7 @@ body {
 
 .main .info_contact .icon {
     width: 20px;
+    min-width: 20px;
     height: 20px;
     object-fit: contain;
     margin-right: 25px;
@@ -846,4 +847,29 @@ img {
 }
 .breadcrumb-item+.breadcrumb-item::before{
     content : ">" !important;
+}
+.lienhe-padding {
+    padding-left: 70px;
+}
+.mn-product {
+    position: relative;
+    max-width: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-right: 2px;
+    color: white;
+}
+.vote {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.product .taoodayne{
+    display: none !important;
+}
+
+.product-danhsach .taoodayne{
+    display: block !important;
 }
