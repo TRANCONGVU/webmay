@@ -207,7 +207,7 @@
     /* font-weight: bold; */
 }
 .h-best-sale-product-content .sale {
-    font-family: "GotHam-medium" ;
+    font-family: "GotHam-medium" !important;
     font-size: 15px !important;
     text-transform: uppercase;
     color : #666666;
