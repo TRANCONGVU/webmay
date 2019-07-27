@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hai Thu - Dụng cụ xây dựng</title>
+    <title>Hai Thu - @yield('title')</title>
     <base href="{{asset('')}}">
     <link rel="stylesheet" href="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

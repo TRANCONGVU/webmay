@@ -18,7 +18,9 @@
 	    max-width: 1006px;
 	}
 }*/
-.danhgia p {
+
+
+.danhgia p{
     width: 100px;
 }
 
@@ -126,6 +128,10 @@ body {
 @font-face {
     font-family: 'San Francisco Regular', sans-serif !important;
     src: url('../Font Website/SANFRANCISCODISPLAY-REGULAR.OTF');
+}
+@font-face {
+    font-family: 'SF-Regular';
+    src: url('../Font Website/SanFranciscoText-Regular-2.otf');
 }
 
 .container-fluid {
@@ -470,8 +476,10 @@ img {
     display: flex;
 }
 
-.dn a {
-    color: rgb(23, 85, 108);
+.dn a{
+    color : #17556C;
+    font-size: 14px;
+
 }
 
 .head-info a {
