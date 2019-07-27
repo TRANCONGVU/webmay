@@ -641,14 +641,17 @@ section.back-to-top{
 .logo img{
     top: -50px;
     position: absolute;
-    width: 140px;
+    width: 160px;
     /* height: 200px; */
     object-fit: contain;
 }
 .head input {
-    width: 300px;
+    height: 40px;
     padding: 1px;
-    border : 1px solid black;
+    /*border : 1px solid black;*/
+    border: none;
+    outline: none;
+    width: 100%;
 }
 .head input::placeholder {
     font-size: 12px;
@@ -660,23 +663,35 @@ section.back-to-top{
     padding-left: 10px;
 }
 .search {
+    width: 380px;
     position: relative;
+    display: flex;
+    align-items: center;
+    border : 1px solid black;
+}
+.search > div:first-child{
+	flex-grow: 1;
+}
+.search > div:nth-child(2){
+	width: 50px;
+	display: flex;
+	justify-content: center;
 }
 .search img {
     width: 20px;
     height: 30px;
     object-fit: contain;
-    position: absolute;
+    /*position: absolute;*/
     right: 10px;
     top: 0;
 }
 .head .form-group{
     margin: 0;
     height: 40px !important;
-
+    padding: 0 10px;
 }
 .head {
-    margin-right: 20px;
+    margin-right: 28px;
 }
 .head .form-control {
     border : none;
@@ -685,14 +700,19 @@ section.back-to-top{
     border-radius: 0;
 }
 .head div , form {
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     text-transform: capitalize;
     font-size: 15px;
     font-weight: 500;
 }
+.dn{
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+}
 .dn img {
-    width: 35px;
-    height: 30px;
+    width: 23px;
+    height: 21px;
     object-fit: contain;
 }
 .bottom {
@@ -792,12 +812,14 @@ footer {
     margin: 20px 0 0 10px;
 }
 .title-head {
-    height: 30px;
+    height: 40px;
     background: rgb(23 , 85 , 108);
     color : #fff;
     text-align: center;
     font-size: 14px;
-    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .title-head2{
     display: none;

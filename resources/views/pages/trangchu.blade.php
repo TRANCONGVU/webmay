@@ -76,7 +76,8 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
+                                    {{-- <img src="{{ asset('images/link-1.jpg') }}" class="img-fluid"> --}}
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -88,112 +89,17 @@
                                 </div>
                             </div>
                             <div class="h-best-sale-product-content">
-                                <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
-                                </div>
-                                <div style="padding-top: 17px;">
+                                <div style="padding-top: 17px;" class="product-name">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <div class="h-best-sale-product h-image-scale">
-                                <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-2.png') }}" class="img-fluid" style="width: 100%;">
-                                </a>
-                                <div class="h-best-sale-insert-cart">
-                                    <div style="border-right: 1px solid #fff;">
-                                        <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
-                                    </div>
-                                    <div>
-                                        <a href=""><i class="far fa-heart"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="h-best-sale-product-content">
                                 <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
+                                    <a href="">Mã Sản Phẩm: vuFtrY</a>
                                 </div>
-                                <div style="padding-top: 17px;">
-                                    <a href="">Tên sản phẩm</a>
+                                <div style="padding-top: 17px; color: red">
+                                    {{ number_format(500000) }} VND (sale: 10%)
                                 </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <div class="h-best-sale-product h-image-scale">
-                                <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-3.png') }}" class="img-fluid" style="width: 100%;">
-                                </a>
-                                <div class="h-best-sale-insert-cart">
-                                    <div style="border-right: 1px solid #fff;">
-                                        <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
-                                    </div>
-                                    <div>
-                                        <a href=""><i class="far fa-heart"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="h-best-sale-product-content">
-                                <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    <a href="">Tên sản phẩm</a>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <div class="h-best-sale-product h-image-scale">
-                                <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-4.png') }}" class="img-fluid" style="width: 100%;">
-                                </a>
-                                <div class="h-best-sale-insert-cart">
-                                    <div style="border-right: 1px solid #fff;">
-                                        <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
-                                    </div>
-                                    <div>
-                                        <a href=""><i class="far fa-heart"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="h-best-sale-product-content">
-                                <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    <a href="">Tên sản phẩm</a>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
+                                <div style="color: #000; font-size: 14px;">
+                                    {{ number_format(700000) }} VND
                                 </div>
                             </div>
                         </div>
@@ -204,7 +110,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-xl-6">
                         <div class="h-link h-image-scale">
-                            <img src="{{ asset('images/link-1.jpg') }}" class="img-fluid" style="width: 100%;">
+                            <img src="{{ asset('images/link-1.jpg') }}" class="img-fluid">
                             <div class="h-link-content h-link-content-1">
                                 <div>
                                     <span>Súng bắn đinh <br></span>
@@ -218,7 +124,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-xl-6">
                         <div class="h-link h-image-scale">
-                            <img src="{{ asset('images/link-2.jpg') }}" class="img-fluid" style="width: 100%;">
+                            <img src="{{ asset('images/link-2.jpg') }}" class="img-fluid">
                             <div class="h-link-content h-link-content-2">
                                 <div>
                                     <span>Đinh công nghiệp <br></span>
@@ -241,7 +147,7 @@
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                             <div class="h-best-sale-product h-image-scale">
                                 <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid" style="width: 100%;">
+                                    <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
                                 </a>
                                 <div class="h-best-sale-insert-cart">
                                     <div style="border-right: 1px solid #fff;">
@@ -253,112 +159,17 @@
                                 </div>
                             </div>
                             <div class="h-best-sale-product-content">
-                                <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
-                                </div>
-                                <div style="padding-top: 17px;">
+                                <div style="padding-top: 17px;" class="product-name">
                                     <a href="">Tên sản phẩm</a>
                                 </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <div class="h-best-sale-product h-image-scale">
-                                <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-2.png') }}" class="img-fluid" style="width: 100%;">
-                                </a>
-                                <div class="h-best-sale-insert-cart">
-                                    <div style="border-right: 1px solid #fff;">
-                                        <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
-                                    </div>
-                                    <div>
-                                        <a href=""><i class="far fa-heart"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="h-best-sale-product-content">
                                 <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
+                                    <a href="">Mã Sản Phẩm: vuFtrY</a>
                                 </div>
-                                <div style="padding-top: 17px;">
-                                    <a href="">Tên sản phẩm</a>
+                                <div style="padding-top: 17px; color: red">
+                                    {{ number_format(500000) }} VND (sale: 10%)
                                 </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <div class="h-best-sale-product h-image-scale">
-                                <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-4.png') }}" class="img-fluid" style="width: 100%;">
-                                </a>
-                                <div class="h-best-sale-insert-cart">
-                                    <div style="border-right: 1px solid #fff;">
-                                        <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
-                                    </div>
-                                    <div>
-                                        <a href=""><i class="far fa-heart"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="h-best-sale-product-content">
-                                <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    <a href="">Tên sản phẩm</a>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <div class="h-best-sale-product h-image-scale">
-                                <a href="{{ url('chitiet') }}">
-                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                </a>
-                                <div class="h-best-sale-insert-cart">
-                                    <div style="border-right: 1px solid #fff;">
-                                        <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
-                                    </div>
-                                    <div>
-                                        <a href=""><i class="far fa-heart"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="h-best-sale-product-content">
-                                <div>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span><i class="far fa-star"></i></span>
-                                    <span style="padding-left: 17px;">1 Đánh giá</span>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    <a href="">Tên sản phẩm</a>
-                                </div>
-                                <div style="padding-top: 17px;">
-                                    {{ number_format(500000) }} VND
+                                <div style="color: #000; font-size: 14px;">
+                                    {{ number_format(700000) }} VND
                                 </div>
                             </div>
                         </div>
@@ -369,7 +180,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-xl-8">
                         <div class="h-link h-image-scale">
-                            <img src="{{ asset('images/link-3.jpg') }}" class="img-fluid" style="width: 100%;">
+                            <img src="{{ asset('images/link-3.jpg') }}" class="img-fluid">
                             <div class="h-link-content h-link-content-3">
                                 <div>
                                     <span>Máy hút bụi <br> công nghệ cao <br></span>
@@ -383,7 +194,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-xl-4">
                         <div class="h-link h-image-scale">
-                            <img src="{{ asset('images/link-4.jpg') }}" class="img-fluid" style="width: 100%;">
+                            <img src="{{ asset('images/link-4.jpg') }}" class="img-fluid">
                             <div class="h-link-content h-link-content-4">
                                 <div>
                                     <span>Hộp đựng <br> dụng cụ <br></span>
@@ -406,465 +217,42 @@
                             </div>
                             <div class="home-product">
                                 <div class="row">
-                                    <div class="col-12 col-sm-12 col-xl-5">
-                                        <div class="home-product-img h-image-scale">
-                                            <a href="{{ url('chitiet') }}">
-                                                <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                            </a>
-                                            <div class="home-product-cart">
-                                                <div>
-                                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                    <div class="home-product">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-xl-5">
+                                                <div class="home-product-img h-image-scale">
+                                                    <a href="{{ url('chitiet') }}" class="scale">
+                                                        <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid">
+                                                    </a>
+                                                           
+                                                    <div class="home-product-cart">
+                                                        <div class="cart-icon">
+                                                            <a href="">
+                                                                <img src="images/cart-white.png" style="">
+                                                                <img src="images/cart-red.png" style="">
+                                                            </a>
+                                                        </div>
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div>
-                                                    <a href=""><i class="far fa-heart"></i></a>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-xl-7">
+                                                <div class="home-product-content">
+                                                    <div class="home-product-name">
+                                                        <a href="">Tên sản phẩm</a>
+                                                    </div>
+                                                    <div class="home-product-price">
+                                                        {{ number_format(500000) }} VND
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-sm-12 col-xl-7">
-                                        <div class="home-product-content">
-                                            <div class="home-product-star">
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span><i class="far fa-star"></i></span>
-                                                <span><i class="far fa-star"></i></span>
-                                                <span style="padding-left: 15px;">1 Đánh giá</span>
-                                            </div>
-                                            <div class="home-product-name">
-                                                <a href="">Tên sản phẩm</a>
-                                            </div>
-                                            <div class="home-product-price">
-                                                {{ number_format(500000) }} VND
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
-                            {{-- LOOP --}}
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-lg-4">
-                        <div class="h-g">
-                            <div class="h-g-title">
-                                Loại sản phẩm
-                            </div>
-                            <div class="home-product">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-xl-5">
-                                        <div class="home-product-img h-image-scale">
-                                            <a href="{{ url('chitiet') }}">
-                                                <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                            </a>
-                                            <div class="home-product-cart">
-                                                <div>
-                                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                </div>
-                                                <div>
-                                                    <a href=""><i class="far fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xl-7">
-                                        <div class="home-product-content">
-                                            <div class="home-product-star">
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span><i class="far fa-star"></i></span>
-                                                <span><i class="far fa-star"></i></span>
-                                                <span style="padding-left: 15px;">1 Đánh giá</span>
-                                            </div>
-                                            <div class="home-product-name">
-                                                <a href="">Tên sản phẩm</a>
-                                            </div>
-                                            <div class="home-product-price">
-                                                {{ number_format(500000) }} VND
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {{-- LOOP --}}
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-lg-4">
-                        <div class="h-g">
-                            <div class="h-g-title">
-                                Loại sản phẩm
-                            </div>
-                            <div class="home-product">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-xl-5">
-                                        <div class="home-product-img h-image-scale">
-                                            <a href="{{ url('chitiet') }}">
-                                                <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                            </a>
-                                            <div class="home-product-cart">
-                                                <div>
-                                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                </div>
-                                                <div>
-                                                    <a href=""><i class="far fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xl-7">
-                                        <div class="home-product-content">
-                                            <div class="home-product-star">
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                <span><i class="far fa-star"></i></span>
-                                                <span><i class="far fa-star"></i></span>
-                                                <span style="padding-left: 15px;">1 Đánh giá</span>
-                                            </div>
-                                            <div class="home-product-name">
-                                                <a href="">Tên sản phẩm</a>
-                                            </div>
-                                            <div class="home-product-price">
-                                                {{ number_format(500000) }} VND
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {{-- LOOP --}}
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home-product">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-xl-5">
-                                            <div class="home-product-img h-image-scale">
-                                                <a href="{{ url('chitiet') }}">
-                                                    <img src="{{ asset('images/1x/trang-chu-5.png') }}" class="img-fluid" style="width: 100%;">
-                                                </a>
-                                                <div class="home-product-cart">
-                                                    <div>
-                                                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                                                    </div>
-                                                    <div>
-                                                        <a href=""><i class="far fa-heart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xl-7">
-                                            <div class="home-product-content">
-                                                <div class="home-product-star">
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span class="h-best-sale-color-star"><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                    <span style="padding-left: 15px;">1 Đánh giá</span>
-                                                </div>
-                                                <div class="home-product-name">
-                                                    <a href="">Tên sản phẩm</a>
-                                                </div>
-                                                <div class="home-product-price">
-                                                    {{ number_format(500000) }} VND
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                         </div>
                     </div>
                 </div>
