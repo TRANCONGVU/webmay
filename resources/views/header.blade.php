@@ -35,7 +35,7 @@
             <div class="dn">
                 <img src="images/user.png" alt="">
                 <a href="#login" data-toggle="modal">Đăng Nhập</a>
-                <span class="text-lowercase" style="padding: 0 5px;">hoặc</span>
+                <span class="text-lowercase" style="padding: 0 10px;color : grey">hoặc</span>
                 <a href="#signUp" data-toggle="modal">Tạo Tài Khoản</a>
             </div>
         </div>
@@ -75,7 +75,9 @@
                 <li><a href="{{ url('tintuc') }}">Tin tức</a></li>
                 <li><a href="{{ url('lienhe') }}">Liên hệ </a></li>
                 <li class="cart-head">
-                    <a href="#"><i class="fas fa-luggage-cart"></i></a>
+                    <a href="#">
+                        <img src="images/cart.png" alt="">
+                    </a>
                     <div class="item-cart">
                         <span>10</span>
                     </div>
