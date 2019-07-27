@@ -487,17 +487,16 @@ img {
 .muangay {
     padding: 7px 20px;
     background: #fff;
-    color: #000 !important;
     border: none;
     text-transform: capitalize;
     border:1px solid black;
     margin-top: 20px;
     width: 300px;
 }
-.muangay a{
+.taoodayne .muangay a{
     color: #000 !important;
 }
-.muangay a:hover{
+.taoodayne  .muangay a:hover{
     color : white !important;
 }
 .muangay:hover {
