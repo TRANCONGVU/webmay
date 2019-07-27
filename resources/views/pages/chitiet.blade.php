@@ -1,6 +1,6 @@
 @extends('master-layout')
 @section('title')
-    chi tiết sản phẩm
+chi tiết sản phẩm
 @endsection
 {{-- lllll --}}
 @section('content')
@@ -43,11 +43,11 @@
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel-sp" role="button" data-slide="prev">
-                   <span class="caroul"><i class="fas fa-arrow-circle-left"></i></span>
+                    <span class="caroul"><i class="fas fa-chevron-left"></i></span>
 
                 </a>
                 <a class="carousel-control-next" href="#carousel-sp" role="button" data-slide="next">
-                   <span class="caroul"><i class="fas fa-arrow-circle-right"></i></span>
+                    <span class="caroul"><i class="fas fa-chevron-right"></i></i></span>
                 </a>
             </div>
         </div>
@@ -66,7 +66,7 @@
                 thêm vào giỏ hàng của bạn
             </button>
             <div class="like mt-4">
-                <i class="far fa-heart"></i>
+                <i class="fas fa-heart"></i>
                 <i class="fas fa-phone xanh" style="transform: rotate(90deg);"></i>
                 <i class="far fa-envelope xanh"></i>
             </div>
@@ -90,7 +90,8 @@
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active my-4" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                    <p style="line-height: 34px; color : #666666">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum, vero accusantium aut
+                    <p style="line-height: 34px; color : #666666">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Atque dolorum, vero accusantium aut
                         saepe laudantium repellendus molestias provident modi natus aliquam earum, expedita excepturi,
                         quo vel ducimus beatae. Cumque, reiciendis!</p>
                 </div>
@@ -188,8 +189,8 @@
                         </div>
                         <div class="my-rate d-flex flex-column">
                             <div class="d-flex flex-row mt-4">
-                                    <span>bạn đang đánh giá :</span>
-                                    <span class="ml-2">bộ dụng cụ de walt - máy khoan</span>
+                                <span>bạn đang đánh giá :</span>
+                                <span class="ml-2">bộ dụng cụ de walt - máy khoan</span>
                             </div>
 
                             <span class="my-2"> Đánh giá của bạn <span class="text-danger">*</span></span>
