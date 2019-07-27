@@ -722,9 +722,10 @@ section.back-to-top{
 	color: rgb(23,85,108);
 }
 .dn img {
-    width: 23px;
-    height: 21px;
+    width: 34px;
+    height: 31px;
     object-fit: contain;
+    margin-right: 5px;
 }
 .bottom {
     display: flex;
@@ -772,7 +773,8 @@ footer {
     border: none;
     color: white;
     cursor: pointer;
-    padding: 5px !important;
+    padding: 5px 10px !important;
+    margin-left: 0 !important;
     font-weight: 500;
     font-size: 13px;
 }

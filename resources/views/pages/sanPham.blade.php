@@ -1,5 +1,7 @@
 @extends('master-layout')
-
+@section('title')
+sản phẩm
+@endsection
 
 @section('content')
 
