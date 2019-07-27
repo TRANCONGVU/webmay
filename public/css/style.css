@@ -749,11 +749,10 @@ img {
         background: #17556C !important;
         color: #fff !important; }
 
-  @media (max-width: 992px) {
-
 
 .tintuc-item {
     margin-top: 20px;
+    margin-bottom: 20px !important;
 }
 
 .xanh {
