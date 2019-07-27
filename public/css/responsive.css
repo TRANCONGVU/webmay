@@ -84,6 +84,9 @@
     .trangchitiet .carousel-indicators li{
         left: -190px;
     }
+    .email-fix{
+        max-width: 100px;
+    }
 }
 @media only screen and (max-width: 992px) {
 	.container {

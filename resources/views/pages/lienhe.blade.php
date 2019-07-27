@@ -99,7 +99,7 @@
                                 <div class="d-flex flex-column">
                                     <p class="left tieude">
                                         Thư điện tử </p>
-                                    <span>haithu.company@gmail.com </span></p>
+                                    <span class="email-fix">haithu.company@gmail.com </span></p>
                                     <div style="clear: both;"></div>
                                 </div>
 
