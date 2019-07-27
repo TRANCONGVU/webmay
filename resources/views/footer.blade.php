@@ -28,8 +28,12 @@
 	            </div>
 	            <div class="col-md-2 bottom">
 	                <span>Liên hệ</span>
-	                <a href=""><i class="fas fa-phone mr-1" style="transform: rotate(90deg);"></i>tư vấn vào thứ 2 - chủ nhật 9:00-18:00</a>
-	                <a href=""><i class="fas fa-map-marker-alt mr-1"></i>Địa chỉ : số 201 NGuyễn đức cảnh,p.cát dài,q.lê
+                    <a class="text-white" href=""><i class="fas fa-phone mr-1" style="transform: rotate(90deg);"></i>
+                    tư vấn vào thứ 2 - chủ nhật 9:00-18:00 <br>
+                        +(84)941.685.419
+                    </a>
+
+	                <a class="text-white text-uppercase" href=""><i class="fas fa-map-marker-alt mr-1"></i>Địa chỉ : số 201 NGuyễn đức cảnh,p.cát dài,q.lê
 	                    chân,tp.hải phòng</a>
 
 	            </div>
