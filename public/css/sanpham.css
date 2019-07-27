@@ -30,6 +30,7 @@ img {
 
 .bread-crumb .breadcrumb {
     background: transparent;
+    padding: 10px 0;
 }
 
 .bread-crumb .breadcrumb .breadcrumb-item {
