@@ -810,7 +810,8 @@ footer {
     color: rgb(23 , 85 , 108);
 }
 .pagination {
-    margin: 20px 0 0 0px;
+    margin: 20px    0px;
+
 }
 .title-head {
     height: 40px;

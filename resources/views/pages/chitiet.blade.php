@@ -62,17 +62,6 @@
                 <span>500.000 vnd</span>
 
             </div>
-            <div class="danhgia">
-                <div>
-                    <i class="far fa-star bg-danhgia"></i>
-                    <i class="far fa-star bg-danhgia"></i>
-                    <i class="far fa-star bg-danhgia"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <span class="ml-4">1 <a href="">Đánh giá</a></span>
-                <a href="" class="ml-4">Đánh giá sản phẩm này</a>
-            </div>
             <button class="muangay">
                 thêm vào giỏ hàng của bạn
             </button>
