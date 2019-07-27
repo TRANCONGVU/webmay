@@ -496,7 +496,7 @@ img {
 .muangay:hover {
     background: #fff;
     color: rgb(23, 85, 108);
-    border:none;
+    border:1px solid black;
 }
 
 .like i {

@@ -83,10 +83,10 @@ chi tiết sản phẩm
                     <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
                         aria-selected="false">THÔNG TIN SẢN PHẨM</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3"
                         aria-selected="false">ĐÁNH GIÁ <span>(2)</span></a>
-                </li>
+                </li> --}}
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active my-4" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
@@ -119,7 +119,7 @@ chi tiết sản phẩm
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                {{-- <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <div class="row p-3">
                         <h5>Đánh giá của khách hàng</h5>
                         <div class="col-md-12 danhgia-box">
@@ -245,7 +245,7 @@ chi tiết sản phẩm
                         </div>
 
                     </div>
-                </div>
+                </div>--}}
             </div>
         </div>
     </div>

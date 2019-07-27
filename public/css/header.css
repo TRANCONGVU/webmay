@@ -641,9 +641,9 @@ section.back-to-top{
     right: 6px;
 }
 .logo img{
-    top: -80px;
+    top: -50px;
     position: absolute;
-    width: 195px;
+    width: 170px;
     /* height: 200px; */
     object-fit: contain;
     left: -20px;
