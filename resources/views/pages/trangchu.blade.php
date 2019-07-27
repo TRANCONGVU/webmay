@@ -1,4 +1,7 @@
 @extends('master-layout')
+@section('title')
+trang chủ
+@endsection
 @section('content')
 <section class="home-wrap">
     <div class="container">
@@ -433,7 +436,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -469,7 +472,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -505,7 +508,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -541,7 +544,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -578,7 +581,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -614,7 +617,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -650,7 +653,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -686,7 +689,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -722,7 +725,7 @@
                                             <img src="images/cart-red.png" style="">
                                         </a>
                                     </div>
-                                    <div>
+                                    <div class="cart-icon">
                                         <a href=""><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>

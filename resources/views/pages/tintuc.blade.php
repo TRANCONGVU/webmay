@@ -1,4 +1,7 @@
 @extends('master-layout')
+@section('title')
+tin tức
+@endsection
 @section('content')
 <div class="container">
         <section class="bread-crumb">

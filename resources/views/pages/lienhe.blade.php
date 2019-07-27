@@ -1,4 +1,7 @@
 @extends('master-layout')
+@section('title')
+liên hệ
+@endsection
 @section('content')
 
 <div class="main">
