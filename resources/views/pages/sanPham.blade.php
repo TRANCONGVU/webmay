@@ -35,9 +35,11 @@
                                 <div class="box-1-title">
                                     <h3 class="main-title">màu sắc</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
+                                    <i class="fas fa-minus"></i>
                                 </div>
 
                                 <div class="content-box">
+
                                     <ul class="color-box">
                                         <li><a href="#"
                                                 style="display:block; width:33px; height: 33px; background: #000;"></a>
@@ -65,6 +67,8 @@
                                 <div class="box-1-title">
                                     <h3 class="main-title">LOẠI MẶT HÀNG</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
+                                    <i class="fas fa-minus"></i>
+
                                 </div>
 
                                 <div class="content-box">
@@ -88,6 +92,7 @@
                                 <div class="box-1-title">
                                     <h3 class="main-title">GIÁ</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
+                                    <i class="fas fa-minus"></i>
                                 </div>
 
                                 <div class="content-box">
@@ -106,6 +111,7 @@
                                 <div class="box-1-title">
                                     <h3 class="main-title">NHÃN HÀNG</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
+                                    <i class="fas fa-minus"></i>
                                 </div>
 
                                 <div class="content-box">
@@ -124,6 +130,7 @@
                                 <div class="box-1-title">
                                     <h3 class="main-title">XUẤT XỨ</h3>
                                     <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
+                                    <i class="fas fa-minus"></i>
                                 </div>
 
                                 <div class="content-box">
@@ -242,6 +249,23 @@
                                                 <span class="sale">700,000 VND</span>
                                                 <span>(sale 10%)</span>
                                             </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
 
                                         </div>
                                     </div>
@@ -269,11 +293,176 @@
                                             </div>
 
                                             <div class="gia">
-                                                {{ number_format(500000) }} VND
+                                                {{ number_format(700000) }} VND
                                             </div>
                                             <div>
-                                                <span class="sale">700,000 VND</span>
-                                                <span>(sale 10%)</span>
+                                                <span class="sale">700000 vnd</span>
+                                                <span>sale 10%</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item-product col-md-4">
+                                        <div class="h-best-sale-product h-image-scale">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
+                                            </a>
+
+                                            <div class="h-best-sale-insert-cart">
+
+                                                <div style="border-right: 1px solid #fff;">
+                                                    <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                </div>
+                                                <div>
+                                                    <a href=""><i class="far fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="h-best-sale-product-content">
+                                            <div class="product-name">
+                                                <a href="">Tên sản phẩm</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Mã Sản Phẩm: vuFtrY</a>
+                                            </div>
+
+                                            <div class="gia">
+                                                {{ number_format(700000) }} VND
+                                            </div>
+                                            <div>
+                                                <span class="sale">700000 vnd</span>
+                                                <span>sale 10%</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item-product col-md-4">
+                                        <div class="h-best-sale-product h-image-scale">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
+                                            </a>
+
+                                            <div class="h-best-sale-insert-cart">
+
+                                                <div style="border-right: 1px solid #fff;">
+                                                    <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                </div>
+                                                <div>
+                                                    <a href=""><i class="far fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="h-best-sale-product-content">
+                                            <div class="product-name">
+                                                <a href="">Tên sản phẩm</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Mã Sản Phẩm: vuFtrY</a>
+                                            </div>
+
+                                            <div class="gia">
+                                                {{ number_format(700000) }} VND
+                                            </div>
+                                            <div>
+                                                <span class="sale">700000 vnd</span>
+                                                <span>sale 10%</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item-product col-md-4">
+                                        <div class="h-best-sale-product h-image-scale">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
+                                            </a>
+
+                                            <div class="h-best-sale-insert-cart">
+
+                                                <div style="border-right: 1px solid #fff;">
+                                                    <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                </div>
+                                                <div>
+                                                    <a href=""><i class="far fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="h-best-sale-product-content">
+                                            <div class="product-name">
+                                                <a href="">Tên sản phẩm</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Mã Sản Phẩm: vuFtrY</a>
+                                            </div>
+
+                                            <div class="gia">
+                                                {{ number_format(700000) }} VND
+                                            </div>
+                                            <div>
+                                                <span class="sale">700000 vnd</span>
+                                                <span>sale 10%</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
 
                                         </div>
@@ -309,6 +498,171 @@
                                             <div>
                                                 <span class="sale">700,000 VND</span>
                                                 <span>(sale 10%)</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item-product col-md-4">
+                                        <div class="h-best-sale-product h-image-scale">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
+                                            </a>
+
+                                            <div class="h-best-sale-insert-cart">
+
+                                                <div style="border-right: 1px solid #fff;">
+                                                    <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                </div>
+                                                <div>
+                                                    <a href=""><i class="far fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="h-best-sale-product-content">
+                                            <div class="product-name">
+                                                <a href="">Tên sản phẩm</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Mã Sản Phẩm: vuFtrY</a>
+                                            </div>
+
+                                            <div class="gia">
+                                                {{ number_format(500000) }} VND
+                                            </div>
+                                            <div>
+                                                <span class="sale">700,000 VND</span>
+                                                <span>(sale 10%)</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item-product col-md-4">
+                                        <div class="h-best-sale-product h-image-scale">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
+                                            </a>
+
+                                            <div class="h-best-sale-insert-cart">
+
+                                                <div style="border-right: 1px solid #fff;">
+                                                    <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                </div>
+                                                <div>
+                                                    <a href=""><i class="far fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="h-best-sale-product-content">
+                                            <div class="product-name">
+                                                <a href="">Tên sản phẩm</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Mã Sản Phẩm: vuFtrY</a>
+                                            </div>
+
+                                            <div class="gia">
+                                                {{ number_format(700000) }} VND
+                                            </div>
+                                            <div>
+                                                <span class="sale">700000 vnd</span>
+                                                <span>sale 10%</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item-product col-md-4">
+                                        <div class="h-best-sale-product h-image-scale">
+                                            <a href="{{ url('chitiet') }}">
+                                                <img src="{{ asset('images/1x/trang-chu-1.png') }}" class="img-fluid">
+                                            </a>
+
+                                            <div class="h-best-sale-insert-cart">
+
+                                                <div style="border-right: 1px solid #fff;">
+                                                    <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                </div>
+                                                <div>
+                                                    <a href=""><i class="far fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="h-best-sale-product-content">
+                                            <div class="product-name">
+                                                <a href="">Tên sản phẩm</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Mã Sản Phẩm: vuFtrY</a>
+                                            </div>
+
+                                            <div class="gia">
+                                                {{ number_format(700000) }} VND
+                                            </div>
+                                            <div>
+                                                <span class="sale">700000 vnd</span>
+                                                <span>sale 10%</span>
+                                            </div>
+                                            <div class="taoodayne">
+
+                                                <div class="d-flex">
+                                                    <div class="muangay mn-product">
+                                                        <div>
+                                                            <a href="{{url('chitiet')}}">Thêm vào giỏ hàng</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="muangay vote">
+                                                        <div>
+                                                            <a href=""><i class="far fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
 
                                         </div>
@@ -324,13 +678,13 @@
 
                     </div>
                     <div class="container my-5">
-                            <ul class="pagination">
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Tiếp</a></li>
-                            </ul>
-                        </div>
+                        <ul class="pagination">
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Tiếp</a></li>
+                        </ul>
+                    </div>
                 </div>
 
             </div>

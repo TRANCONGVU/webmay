@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="{{  asset('css/home.css') }}">
     <link rel="stylesheet" type="text/css" href="{{  asset('css/home-responsive.css') }}">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    
+
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
@@ -42,22 +42,30 @@
 
 
 
-  
+
 
 	<!-- custom js -->
 	<script>
 	$(document).ready(function () {
 		$(".content-box").slideUp();
-
+        var down = false;
 		$(".box-1-title").click(function(){
-			$(this).next(".content-box").slideToggle();
-		})
+            $(this).next(".content-box").slideToggle(500);
+            if(down === false){
+                $(this).addClass("hihi");
+                return down = true;
+            }
+            else{
+                $(this).removeClass("hihi");
+                return down = false;
+            }
+
+        })
 
         $(".fa-list").click(function(){
             $(".product-list").show();
             $(".product-box").hide();
         })
-
         $(".fa-th").click(function(){
             $(".product-box").show();
             $(".product-list").hide();

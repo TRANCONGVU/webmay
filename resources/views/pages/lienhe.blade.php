@@ -21,17 +21,17 @@
             </div>
         </section>
 
-        <div class="row">
+        <div class="row lienhe-padding">
             <div class="col-md-6 contact">
                 <p class="title">Liên Hệ Mua Hàng</p>
                 <form>
                     <p>
                         <span>Họ và Tên </span> <span>*</span> <br>
-                        <input type="text" name="name" class="input">
+                        <input type="text" name="name" class="input" style="height : 40px">
                     </p>
                     <p>
                         <span>Số điện thoại</span> <span>*</span> <br>
-                        <input type="text" name="name" class="input">
+                        <input type="text" name="name" class="input" style="height : 40px"  >
                     </p>
                     <p>
                         <span>Nội dung mua hàng</span> <span>*</span> <br>
