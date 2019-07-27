@@ -39,7 +39,10 @@ nav.nav-horizontal{
 }
 nav.nav-horizontal a{
     text-decoration: none;
-    color: #000 !important;
+    color: #000;
+}
+nav.nav-horizontal a:hover {
+	color: #17556C;
 }
 .nav-horizontal-sublogo{
 	margin-left: 10px;
@@ -711,6 +714,13 @@ section.back-to-top{
 	display: flex;
 	align-items: center;
 }
+.dn a {
+	text-decoration: none;
+	color: #868686;
+}
+.dn a:hover {
+	color: rgb(23,85,108);
+}
 .dn img {
     width: 23px;
     height: 21px;
@@ -787,16 +797,15 @@ footer {
 	text-align: left;
 	background: #fff;
 	display: none;
-    /* box-shadow: 1px 5px 25px #ccc; */
-    border: 1px solid;
-    padding: 10px;
-    text-transform: capitalize;
-    color: #000;
-    font-size : 13px;
-    line-height: 30px;
-    transition: 1s;
-    font-weight: 500;
-    transition: 1s;
+	border: 1px solid #000;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #000;
+  font-size : 13px;
+  line-height: 30px;
+  transition: 1s;
+  font-weight: 500;
+  transition: 1s;
 }
 .menu-lv-2 .row {
     width: 350px;
