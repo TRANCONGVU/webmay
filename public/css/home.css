@@ -258,7 +258,8 @@
 	align-items: center;
 }
 .h-link img{
-	max-height: 425px;
+    max-height: 425px;
+    width: 100%;
 }
 .h-link-content > div > span:first-child{
 	font-size: 45px;
@@ -305,9 +306,9 @@
 .home-product-img{
 	position: relative;
     overflow-y: hidden;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .home-product-img img{
 	max-height: 347px;
@@ -320,7 +321,8 @@
     transition: 1s;
 }
 .home-product-img img{
-	/*padding: 10px 20px;*/
+    padding: 10px 20px;
+    width: 100%;
     background-color: #F2F2F2;
     object-fit: contain;
 }
