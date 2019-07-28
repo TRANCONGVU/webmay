@@ -44,36 +44,32 @@
 
 
 
-	<!-- custom js -->
-	<script>
-	$(document).ready(function () {
-		$(".content-box").slideUp();
-        var down = false;
-		$(".box-1-title").click(function(){
-            $(this).next(".content-box").slideToggle(500);
-            if(down === false){
-                $(this).addClass("hihi");
-                return down = true;
-            }
-            else{
-                $(this).removeClass("hihi");
-                return down = false;
-            }
+    <!-- custom js -->
+    <script>
 
-        })
+        $(document).ready(function () {
+            $(".content-box").slideUp();
+            $(".minus-img", this).css("display", "none");
+            $(".plus-img", this).css("display", "block");
+            $(".box-1-title").click(function () {
 
-        $(".fa-list").click(function(){
-            $(".product-list").show();
-            $(".product-box").hide();
-        })
-        $(".fa-th").click(function(){
-            $(".product-box").show();
-            $(".product-list").hide();
-        })
-    });
+                $(this).next(".content-box").slideToggle(500);
+                $(".plus-img", this).css("display", "none");
+                $(".minus-img", this).css("display", "block");
+            })
 
 
-	</script>
+            $(".fa-list").click(function () {
+                $(".product-list").show();
+                $(".product-box").hide();
+            })
+            $(".fa-th").click(function () {
+                $(".product-box").show();
+                $(".product-list").hide();
+            })
+        });
+
+    </script>
 
 </body>
 

@@ -41,7 +41,17 @@ img {
     color: #231F20;
     text-transform: capitalize;
 }
-
+.plus-img {
+    width: 25px;
+    position: absolute;
+    right: 0;
+}
+.minus-img{
+    width: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 .content .content-left .left-title {
     font-family: "GotHam-medium";
     font-size: 25px;
