@@ -4,7 +4,7 @@ trang chủ
 @endsection
 @section('content')
 <section class="home-wrap">
-    <div class="container">
+    <div class="container" style="position : relative ; top : -20px">
         <div class="home-slide owl-carousel owl-theme">
             <div class="home-slide-member">
                 <div class="home-slide-img">

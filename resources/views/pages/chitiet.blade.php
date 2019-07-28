@@ -4,6 +4,19 @@ chi tiết sản phẩm
 @endsection
 @section('content')
 <div class="container trangchitiet">
+        <section class="bread-crumb">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="breadcrumb">
+                                <a class="breadcrumb-item" href="#">trang chủ</a>
+                                <a class="breadcrumb-item" href="#">sản phẩm</a>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
     <div class="row">
         <div class="col-md-6 offset-md-1">
             <div id="carousel-sp" class="carousel slide" data-ride="carousel">
