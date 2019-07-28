@@ -35,9 +35,12 @@ sản phẩm
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">màu sắc</h3>
-                                    <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
-                                    <i class="fas fa-minus"></i>
+                                    <h3 class="main-title">màu sắc
+                                        <img class="plus-img" src="images/plus.png" alt="">
+                                        <img class="minus-img" src="images/minus.png" alt="">
+
+                                    </h3>
+
                                 </div>
 
                                 <div class="content-box">
@@ -67,9 +70,12 @@ sản phẩm
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">LOẠI MẶT HÀNG</h3>
-                                    <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
-                                    <i class="fas fa-minus"></i>
+                                    <h3 class="main-title">LOẠI MẶT HÀNG
+                                        <img class="plus-img" src="images/plus.png" alt="">
+                                        <img class="minus-img" src="images/minus.png" alt="">
+
+                                    </h3>
+
 
                                 </div>
 
@@ -92,9 +98,11 @@ sản phẩm
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">GIÁ</h3>
-                                    <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
-                                    <i class="fas fa-minus"></i>
+                                    <h3 class="main-title">GIÁ
+                                        <img class="plus-img" src="images/plus.png" alt="">
+                                        <img class="minus-img" src="images/minus.png" alt="">
+
+                                    </h3>
                                 </div>
 
                                 <div class="content-box">
@@ -111,9 +119,11 @@ sản phẩm
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">NHÃN HÀNG</h3>
-                                    <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
-                                    <i class="fas fa-minus"></i>
+                                    <h3 class="main-title">NHÃN HÀNG
+                                        <img class="plus-img" src="images/plus.png" alt="">
+                                        <img class="minus-img" src="images/minus.png" alt="">
+
+                                    </h3>
                                 </div>
 
                                 <div class="content-box">
@@ -130,9 +140,13 @@ sản phẩm
 
                             <div class="box-1">
                                 <div class="box-1-title">
-                                    <h3 class="main-title">XUẤT XỨ</h3>
-                                    <i class="fa fa-plus icon-plus" aria-hidden="true"></i>
-                                    <i class="fas fa-minus"></i>
+                                    <h3 class="main-title">XUẤT XỨ
+                                        <img class="plus-img" src="images/plus.png" alt="">
+                                        <img class="minus-img" src="images/minus.png" alt="">
+
+                                    </h3>
+
+
                                 </div>
 
                                 <div class="content-box">
@@ -173,7 +187,9 @@ sản phẩm
                                     <span>Tìm kiếm theo:</span>
 
                                     <a href="#" data-toggle="dropdown">
-                                        Tên sản phẩm <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                        Tên sản phẩm <span><i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <img style="width : 25px" src="images/sapxep.png" alt="">
+                                        </span>
                                     </a>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Tên Sản Phẩm</a>
