@@ -87,6 +87,9 @@
             <div class="menu-mobile-button"><i class="fas fa-bars"></i></div>
         </div>
     </div>
+    <div class="container" style="height : 1px ; background-color: #dedede;margin-top:20px;width : 100%;">
+
+    </div>
 </nav>
 <script type="text/javascript" src="js/nav-horizontal.js"></script>
 
